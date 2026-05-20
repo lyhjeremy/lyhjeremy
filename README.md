@@ -1,4 +1,4 @@
-# Hi, I'm Jeremy 👋
+# Hi, I'm Jeremy Lee 👋
 
 Data scientist & UCLA Anderson MSBA. Former Chief Strategy Officer turned full-time analytics nerd — I like turning ambiguous business problems into models, dashboards, and decisions.
 
@@ -14,20 +14,18 @@ npx lyhjeremy
 **GenAI** · LLM prompting · embeddings · RAG
 
 ## 💼 Where I've been
-- 🤖 **Data Scientist** @ InstaAgent — LLM-driven content gen + send-time optimization for marketing
 - 🎓 **Co-founder & CSO** @ Casual Ace Learning Centre — scaled to 6 centers, 5.2× enrollment, 1,000+ students
 - 🏫 **MSBA** @ UCLA Anderson · prev. **MS Analytics** @ Georgia Tech (partial) · **BBA** @ HKU
 
 ## 🔬 What I'm building
 A sports analytics portfolio that mashes up my two favorite things — distance running and statistics:
 - 🏃 **Performance Continuum** — fitting EVT to elite top-lists to quantify how isolated world records really are
-- 🌍 **National Strength Profiles** — clustering countries by what they're good at (sprinters vs distance vs throws)
-- ⏱️ **WR Half-Lives** — survival models for predicting which world records fall next
 - 🥇 **Boston BQ Fairness** — are qualifying times equitable across age & gender brackets?
 - 🍷 **Wine Value Analysis** — Old World vs New World, 130k reviews, where's the actual value
+And many more!
 
 ## 🏃 Outside the terminal
-14 marathons and counting — Berlin 2:48 PB · WSET wines · always looking for the next race and the next dataset
+14 marathons and counting — Berlin 2:48 PB · WSET wines Level 3 · always looking for the next race and the next dataset
 
 ## 📫 Reach me
 [LinkedIn](https://www.linkedin.com/in/jeremylyh/) · [Email](mailto:yiu-hon.lee.2026@anderson.ucla.edu)
