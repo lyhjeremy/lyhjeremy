@@ -8,10 +8,10 @@ npx lyhjeremy
 ↑ run that in your terminal for the interactive version of this README 🚀
 
 ## 🧠 What I work with
-- **Modeling** · scikit-learn · PyTorch · regression / classification / clustering · time series · causal inference · A/B testing
-- **Optimization** · Gurobi · LP / IP / QP · branch-and-bound
-- **Data & tools** · Python · R · SQL · Snowflake · Airflow · Tableau · Git
-- **GenAI** · LLM prompting · embeddings · RAG
+- **Modeling** · scikit-learn · PyTorch · XGBoost · regression / classification / clustering · time series · neural networks · causal inference · A/B testing · survival analysis
+- **Optimization** · Gurobi · LP / IP / QP / non-convex programming · branch-and-bound · LP duality · gradient descent · simulation
+- **Data & tools** · Python · R · SQL · Snowflake · Airflow · Spark / PySpark · Tableau · Power BI · Excel · Git · GCS · Jupyter
+- **GenAI** · LLM prompting · embeddings · RAG · vector databases · OpenAI / Anthropic APIs · LangChain / LangGraph · fine-tuning · agentic workflows
 
 ## 💼 Where I've been
 - 🎓 **Co-founder & CSO** @ Casual Ace Learning Centre — scaled to 6 centers, 5.2× enrollment, 1,000+ students
