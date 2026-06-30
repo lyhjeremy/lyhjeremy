@@ -14,7 +14,7 @@ npx lyhjeremy
 - **GenAI** · LLM prompting · embeddings · RAG · vector databases · OpenAI / Anthropic APIs · LangChain / LangGraph · fine-tuning · agentic workflows
 
 ## Featured projects
-Each project name links to its code. The **Live** link opens a plain-English, no-code page in your browser.
+Fourteen projects across four themes, each with a one-click live demo. The project name links to its code; the **Live** link opens a plain-English, no-code page in your browser.
 
 ### 🏃 Running & sports analytics
 | Project | What it is | |
