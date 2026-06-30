@@ -14,16 +14,37 @@ npx lyhjeremy
 - **GenAI** · LLM prompting · embeddings · RAG · vector databases · OpenAI / Anthropic APIs · LangChain / LangGraph · fine-tuning · agentic workflows
 
 ## Featured projects
-Each project name links to its code. The **Live** link opens a plain-English, no-code summary in your browser.
+Each project name links to its code. The **Live** link opens a plain-English, no-code page in your browser.
 
+### 🏃 Running & sports analytics
 | Project | What it is | |
 |---|---|---|
-| [**Boston BQ Fairness**](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness) | Are Boston Marathon qualifying times equitable across age & gender brackets? | [Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/) |
+| [**The Heat Tax**](https://github.com/lyhjeremy/marathon-heat-tax) | Hotter Boston Marathons are slower: about 1 minute per °F (r = 0.86). | [Live](https://lyhjeremy.github.io/marathon-heat-tax/) |
+| [**The Negative-Split Myth**](https://github.com/lyhjeremy/marathon-negative-split-myth) | Only 2.5% of 31,912 Boston runners ran the second half faster. | [Live](https://lyhjeremy.github.io/marathon-negative-split-myth/) |
+| [**Hitting the Wall**](https://github.com/lyhjeremy/marathon-pacing-decay) | Per-5K splits show exactly where marathoners slow down (around 30 km). | [Live](https://lyhjeremy.github.io/marathon-pacing-decay/) |
+| [**Boston BQ Fairness**](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness) | Are Boston qualifying times equitable across age & gender brackets? | [Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/) |
 | [**Marathon Majors Course Difficulty**](https://github.com/lyhjeremy/marathon-majors-course-difficulty) | Are the six World Marathon Majors equally fast? A three-framework analysis. | [Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/) |
 | [**Marathon Shoe Revolution**](https://github.com/lyhjeremy/marathon-shoe-revolution-decomposition) | Decomposing how much of recent marathon progress is *shoes* vs. everything else. | [Live](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/) |
-| [**Leave Time Optimizer**](https://github.com/lyhjeremy/leave-time-optimizer) | Google Maps tool that tells you exactly when to set off to arrive on time. | [Live](https://lyhjeremy.github.io/leave-time-optimizer/) |
+
+### 🗣️ Language & NLP
+| Project | What it is | |
+|---|---|---|
+| [**Are Song Lyrics Getting Simpler?**](https://github.com/lyhjeremy/lyrics-complexity-over-time) | 50 years of Billboard hits: longer and more repetitive, but not lower-vocabulary. | [Live](https://lyhjeremy.github.io/lyrics-complexity-over-time/) |
 | [**Love Island Lexical Analysis**](https://github.com/lyhjeremy/love-island-lexical-analysis) | Just how simple is reality-TV language? A corpus study of *Love Island USA*. | [Live](https://lyhjeremy.github.io/love-island-lexical-analysis/) |
+| [**EPUB Reading-Level Analyzer**](https://github.com/lyhjeremy/epub-reading-level-analyzer) | Drop in any e-book to see its reading level and vocabulary load, in your browser. | [Live](https://lyhjeremy.github.io/epub-reading-level-analyzer/) |
+
+### 🍷 Consumer & finance
+| Project | What it is | |
+|---|---|---|
+| [**Wine Score Inflation**](https://github.com/lyhjeremy/wine-score-inflation) | The wine 100-point scale is really an 8-point one. 130k reviews, analyzed. | [Live](https://lyhjeremy.github.io/wine-score-inflation/) |
+| [**When Can I Retire?**](https://github.com/lyhjeremy/fire-retirement-simulator) | A Monte-Carlo FIRE simulator: the probability your money actually lasts. | [Live](https://lyhjeremy.github.io/fire-retirement-simulator/) |
+
+### 🛠️ Apps & tools
+| Project | What it is | |
+|---|---|---|
+| [**Leave Time Optimizer**](https://github.com/lyhjeremy/leave-time-optimizer) | Google Maps tool that tells you exactly when to set off to arrive on time. | [Live](https://lyhjeremy.github.io/leave-time-optimizer/) |
 | [**EPUB → Audiobook**](https://github.com/lyhjeremy/epub-to-audiobook) | A free desktop app that turns any e-book into a read-along audiobook (EN + 中文). | [Live](https://lyhjeremy.github.io/epub-to-audiobook/) |
+| [**Podcastify**](https://github.com/lyhjeremy/podcastify) | Turn any e-book or article into a two-host podcast with natural voices. | [Live](https://lyhjeremy.github.io/podcastify/) |
 
 ## Where I've been
 - **Co-founder & CSO** @ Casual Ace Learning Centre: scaled to 6 centers, 5.2× enrollment, 1,000+ students
