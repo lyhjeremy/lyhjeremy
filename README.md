@@ -1,6 +1,6 @@
 # Hi, I'm Jeremy Lee 👋
 
-Data scientist & UCLA Anderson MSBA. Former Chief Strategy Officer turned full-time analytics nerd — I like turning ambiguous business problems into models, dashboards, and decisions.
+Data scientist & UCLA Anderson MSBA. Former Chief Strategy Officer turned full-time analytics nerd. I like turning ambiguous business problems into models, dashboards, and decisions.
 
 ```bash
 npx lyhjeremy
@@ -14,25 +14,23 @@ npx lyhjeremy
 - **GenAI** · LLM prompting · embeddings · RAG · vector databases · OpenAI / Anthropic APIs · LangChain / LangGraph · fine-tuning · agentic workflows
 
 ## Featured projects
-Each one has a **plain-English, no-code summary you can open in your browser** (Live) alongside the full code:
+Each project name links to its code. The **Live** link opens a plain-English, no-code summary in your browser.
 
 | Project | What it is | |
 |---|---|---|
-| **Boston BQ Fairness** | Are Boston Marathon qualifying times equitable across age & gender brackets? | [🌐 Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/) · [💻 Code](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness) |
-| **Marathon Majors Course Difficulty** | Are the six World Marathon Majors equally fast? A three-framework analysis. | [🌐 Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/) · [💻 Code](https://github.com/lyhjeremy/marathon-majors-course-difficulty) |
-| **Marathon Shoe Revolution** | Decomposing how much of recent marathon progress is *shoes* vs. everything else. | [🌐 Live](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/) · [💻 Code](https://github.com/lyhjeremy/marathon-shoe-revolution-decomposition) |
-| **Leave Time Optimizer** | Google Maps tool that tells you exactly when to set off to arrive on time. | [🌐 Live](https://lyhjeremy.github.io/leave-time-optimizer/) · [💻 Code](https://github.com/lyhjeremy/leave-time-optimizer) |
-| **Love Island Lexical Analysis** | Just how simple is reality-TV language? A corpus study of *Love Island USA*. | [🌐 Live](https://lyhjeremy.github.io/love-island-lexical-analysis/) · [💻 Code](https://github.com/lyhjeremy/love-island-lexical-analysis) |
-| **EPUB → Audiobook** | A free desktop app that turns any e-book into a read-along audiobook (EN + 中文). | [🌐 Live](https://lyhjeremy.github.io/epub-to-audiobook/) · [💻 Code](https://github.com/lyhjeremy/epub-to-audiobook) |
-
-*In the works:* Performance Continuum (fitting EVT to elite top-lists to quantify how isolated world records really are) and a New World vs Old World wine value analysis over 130k reviews.
+| [**Boston BQ Fairness**](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness) | Are Boston Marathon qualifying times equitable across age & gender brackets? | [Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/) |
+| [**Marathon Majors Course Difficulty**](https://github.com/lyhjeremy/marathon-majors-course-difficulty) | Are the six World Marathon Majors equally fast? A three-framework analysis. | [Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/) |
+| [**Marathon Shoe Revolution**](https://github.com/lyhjeremy/marathon-shoe-revolution-decomposition) | Decomposing how much of recent marathon progress is *shoes* vs. everything else. | [Live](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/) |
+| [**Leave Time Optimizer**](https://github.com/lyhjeremy/leave-time-optimizer) | Google Maps tool that tells you exactly when to set off to arrive on time. | [Live](https://lyhjeremy.github.io/leave-time-optimizer/) |
+| [**Love Island Lexical Analysis**](https://github.com/lyhjeremy/love-island-lexical-analysis) | Just how simple is reality-TV language? A corpus study of *Love Island USA*. | [Live](https://lyhjeremy.github.io/love-island-lexical-analysis/) |
+| [**EPUB → Audiobook**](https://github.com/lyhjeremy/epub-to-audiobook) | A free desktop app that turns any e-book into a read-along audiobook (EN + 中文). | [Live](https://lyhjeremy.github.io/epub-to-audiobook/) |
 
 ## Where I've been
-- **Co-founder & CSO** @ Casual Ace Learning Centre — scaled to 6 centers, 5.2× enrollment, 1,000+ students
+- **Co-founder & CSO** @ Casual Ace Learning Centre: scaled to 6 centers, 5.2× enrollment, 1,000+ students
 - **MSBA** @ UCLA Anderson · prev. **MS Analytics** @ Georgia Tech (partial) · **BBA (acc&fin)** @ HKU
 
 ## Outside the terminal
-14 marathons and counting — Berlin 2:48 PB · WSET wines Level 3 · always looking for the next race and the next dataset
+14 marathons and counting: Berlin 2:48 PB · WSET wines Level 3 · always looking for the next race and the next dataset
 
 ## 📫 Reach me
 [LinkedIn](https://www.linkedin.com/in/jeremylyh/) · [Email](mailto:yiu-hon.lee.2026@anderson.ucla.edu)
