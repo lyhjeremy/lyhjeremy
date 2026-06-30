@@ -13,15 +13,23 @@ npx lyhjeremy
 - **Data & tools** · Python · R · SQL · Snowflake · Airflow · Spark / PySpark · Tableau · Power BI · Excel · Git · GCS · Jupyter
 - **GenAI** · LLM prompting · embeddings · RAG · vector databases · OpenAI / Anthropic APIs · LangChain / LangGraph · fine-tuning · agentic workflows
 
+## Featured projects
+Each one has a **plain-English, no-code summary you can open in your browser** (Live) alongside the full code:
+
+| Project | What it is | |
+|---|---|---|
+| **Boston BQ Fairness** | Are Boston Marathon qualifying times equitable across age & gender brackets? | [🌐 Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/) · [💻 Code](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness) |
+| **Marathon Majors Course Difficulty** | Are the six World Marathon Majors equally fast? A three-framework analysis. | [🌐 Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/) · [💻 Code](https://github.com/lyhjeremy/marathon-majors-course-difficulty) |
+| **Marathon Shoe Revolution** | Decomposing how much of recent marathon progress is *shoes* vs. everything else. | [🌐 Live](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/) · [💻 Code](https://github.com/lyhjeremy/marathon-shoe-revolution-decomposition) |
+| **Leave Time Optimizer** | Google Maps tool that tells you exactly when to set off to arrive on time. | [🌐 Live](https://lyhjeremy.github.io/leave-time-optimizer/) · [💻 Code](https://github.com/lyhjeremy/leave-time-optimizer) |
+| **Love Island Lexical Analysis** | Just how simple is reality-TV language? A corpus study of *Love Island USA*. | [🌐 Live](https://lyhjeremy.github.io/love-island-lexical-analysis/) · [💻 Code](https://github.com/lyhjeremy/love-island-lexical-analysis) |
+| **EPUB → Audiobook** | A free desktop app that turns any e-book into a read-along audiobook (EN + 中文). | [🌐 Live](https://lyhjeremy.github.io/epub-to-audiobook/) · [💻 Code](https://github.com/lyhjeremy/epub-to-audiobook) |
+
+*In the works:* Performance Continuum (fitting EVT to elite top-lists to quantify how isolated world records really are) and a New World vs Old World wine value analysis over 130k reviews.
+
 ## Where I've been
 - **Co-founder & CSO** @ Casual Ace Learning Centre — scaled to 6 centers, 5.2× enrollment, 1,000+ students
 - **MSBA** @ UCLA Anderson · prev. **MS Analytics** @ Georgia Tech (partial) · **BBA (acc&fin)** @ HKU
-
-## What I'm building
-A sports analytics portfolio that mashes up my two favorite things — distance running and statistics:
-- **Performance Continuum** — fitting EVT to elite top-lists to quantify how isolated world records really are
-- **Boston BQ Fairness** — are qualifying times equitable across age & gender brackets?
-- **Wine Value Analysis** — Old World vs New World, 130k reviews, where's the actual value
 
 ## Outside the terminal
 14 marathons and counting — Berlin 2:48 PB · WSET wines Level 3 · always looking for the next race and the next dataset
