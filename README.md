@@ -16,7 +16,7 @@ npx lyhjeremy
 - **Deployment & apps** · GitHub Pages · Streamlit · interactive dashboards · desktop apps · live demos · reproducible pipelines
 
 ## Featured projects
-Over projects across four themes, each with a one-click live demo. The project name links to its code; the **Live** link opens a plain-English, no-code page in your browser.
+Over 20 projects across four themes, each with a one-click live demo. The project name links to its code; the **Live** link opens a plain-English, no-code page in your browser.
 
 ### 🏃 Running & sports analytics
 | Project | What it is | |
