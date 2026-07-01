@@ -8,13 +8,15 @@ npx lyhjeremy
 ↑ run that in your terminal for the interactive version of this README
 
 ## What I work with
-- **Modeling** · scikit-learn · PyTorch · XGBoost · regression / classification / clustering · time series · neural networks · causal inference · A/B testing · survival analysis
-- **Optimization** · Gurobi · LP / IP / QP / non-convex programming · branch-and-bound · LP duality · gradient descent · simulation
+- **Modeling** · scikit-learn · PyTorch · XGBoost · regression / classification / clustering · time series · neural networks · causal inference · survival analysis · A/B testing
+- **Optimization** · Gurobi · LP / IP / QP / non-convex programming · branch-and-bound · LP duality · gradient descent · simulation · Monte Carlo
+- **GenAI** · LLM prompting · RAG · embeddings · vector databases · fine-tuning · OpenAI / Anthropic APIs · NLP
+- **Agents & orchestration** · LangChain · LangGraph · agentic workflows · tool use · retrieval pipelines · multi-step reasoning
 - **Data & tools** · Python · R · SQL · Snowflake · Airflow · Spark / PySpark · Tableau · Power BI · Excel · Git · GCS · Jupyter
-- **GenAI** · LLM prompting · embeddings · RAG · vector databases · OpenAI / Anthropic APIs · LangChain / LangGraph · fine-tuning · agentic workflows
+- **Deployment & apps** · GitHub Pages · Streamlit · interactive dashboards · desktop apps · live demos · reproducible pipelines
 
 ## Featured projects
-Fourteen projects across four themes, each with a one-click live demo. The project name links to its code; the **Live** link opens a plain-English, no-code page in your browser.
+Over projects across four themes, each with a one-click live demo. The project name links to its code; the **Live** link opens a plain-English, no-code page in your browser.
 
 ### 🏃 Running & sports analytics
 | Project | What it is | |
