@@ -29,6 +29,7 @@ Over 20 projects across five themes, each with a one-click live demo. The projec
 ### 🏃 Running & sports analytics
 | Project | What it is | |
 |---|---|---|
+| [**World-Record Half-Lives**](https://github.com/lyhjeremy/world-record-half-lives) | Survival analysis (Kaplan-Meier + Cox) of how long world records stand — and which falls next. | [Live](https://lyhjeremy.github.io/world-record-half-lives/) |
 | [**The Heat Tax**](https://github.com/lyhjeremy/marathon-heat-tax) | Hotter Boston Marathons are slower: about 1 minute per °F (r = 0.86). | [Live](https://lyhjeremy.github.io/marathon-heat-tax/) |
 | [**The Negative-Split Myth**](https://github.com/lyhjeremy/marathon-negative-split-myth) | Only 2.5% of 31,912 Boston runners ran the second half faster. | [Live](https://lyhjeremy.github.io/marathon-negative-split-myth/) |
 | [**Hitting the Wall**](https://github.com/lyhjeremy/marathon-pacing-decay) | Per-5K splits show exactly where marathoners slow down (around 30 km). | [Live](https://lyhjeremy.github.io/marathon-pacing-decay/) |
