@@ -16,7 +16,15 @@ npx lyhjeremy
 - **Deployment & apps** · GitHub Pages · Streamlit · interactive dashboards · desktop apps · live demos · reproducible pipelines
 
 ## Featured projects
-Over 20 projects across four themes, each with a one-click live demo. The project name links to its code; the **Live** link opens a plain-English, no-code page in your browser.
+Over 20 projects across five themes, each with a one-click live demo. The project name links to its code; the **Live** link opens a plain-English, no-code page in your browser.
+
+### 🤖 GenAI & agents
+| Project | What it is | |
+|---|---|---|
+| [**Wine Sommelier RAG**](https://github.com/lyhjeremy/wine-sommelier-rag) | Plain-English wine search over 130k reviews — **hybrid BM25 + dense retrieval**, a **cross-encoder reranker**, and a retrieval-quality eval (+21% precision). | [Live](https://lyhjeremy.github.io/wine-sommelier-rag/) |
+| [**Marathon Strategy RAG**](https://github.com/lyhjeremy/marathon-strategy-rag) | A coach that cites its sources — grounded RAG with an **LLM-judge faithfulness eval** (0.76 → 0.98) and a **LangChain LCEL** build. | [Live](https://lyhjeremy.github.io/marathon-strategy-rag/) |
+| [**Marathon Training Agent**](https://github.com/lyhjeremy/marathon-training-agent) | A **LangGraph** agent that drafts, critiques and revises a training plan until it passes real safety checks — with a **Streamlit** demo. | [Live](https://lyhjeremy.github.io/marathon-training-agent/) |
+| [**Wine Pairing Agent**](https://github.com/lyhjeremy/wine-pairing-agent) | A **LangGraph** agent that reasons to a wine style, calls RAG as a **LangChain tool**, and self-critiques — with full run tracing. | [Live](https://lyhjeremy.github.io/wine-pairing-agent/) |
 
 ### 🏃 Running & sports analytics
 | Project | What it is | |
