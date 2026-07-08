@@ -20,15 +20,17 @@ Selected work spanning generative AI, statistical modeling, and machine learning
 
 | Project | Methods | |
 |---|---|---|
+| [**SkillCompass**](https://github.com/lyhjeremy/skill-compass) | A live skill-assessment platform: Elo-style calibration (item difficulty and ability estimation) recalibrated from real quiz responses, live peer percentiles, and three LLM-backed features — resume-gap analysis, a mock-interview agent, and a personalized study guide. Full-stack, $0/month infrastructure. | [Live](https://lyhjeremy.github.io/skill-compass/) |
+| [**Mandarin Learning Reader**](https://github.com/lyhjeremy/mandarin-learning-reader) | An interactive Mandarin tutor built from any Chinese EPUB — pinyin over every character, natural read-aloud, and offline speak-back pronunciation grading. | [Live](https://lyhjeremy.github.io/mandarin-learning-reader/) |
+| [**Cantonese Learner**](https://github.com/lyhjeremy/cantonese-learner-v2) | Learn to speak Cantonese from today's HK news plus a 38-dialogue everyday-conversations curriculum: LLM rewrite with a review pass, neural zh-HK audio, jyutping, tap-to-compare, and speech grading. | [Live](https://lyhjeremy.github.io/cantonese-learner-v2/) |
+| [**EPUB Reading-Level Analyzer**](https://github.com/lyhjeremy/epub-reading-level-analyzer) | Drop in any EPUB and see its reading grade level, vocabulary richness, and word-coverage curve — runs entirely in the browser, nothing uploaded. | [Live](https://lyhjeremy.github.io/epub-reading-level-analyzer/) |
 | [**Wine Sommelier RAG**](https://github.com/lyhjeremy/wine-sommelier-rag) | Semantic search over 130k wine reviews using hybrid BM25 and dense retrieval with a cross-encoder reranker, evaluated on retrieval quality (precision and nDCG up roughly 21%). | [Live](https://lyhjeremy.github.io/wine-sommelier-rag/) |
 | [**Marathon Training Agent**](https://github.com/lyhjeremy/marathon-training-agent) | A LangGraph agent that iteratively drafts and revises a training plan until it satisfies explicit safety checks, with a Streamlit interface. | [Live](https://lyhjeremy.github.io/marathon-training-agent/) |
 | [**World-Record Half-Lives**](https://github.com/lyhjeremy/world-record-half-lives) | Survival analysis (Kaplan-Meier and Cox regression) of how long track-and-field world records stand, estimating each record's probability of falling. | [Live](https://lyhjeremy.github.io/world-record-half-lives/) |
 | [**Performance Continuum**](https://github.com/lyhjeremy/marathon-performance-continuum) | Distribution fitting and extreme-value theory locating any marathon time within a field of 31,842 finishers and quantifying how far the world record sits beyond it. | [Live](https://lyhjeremy.github.io/marathon-performance-continuum/) |
-| [**National Strength Profiles**](https://github.com/lyhjeremy/national-strength-profiles) | K-means clustering and PCA of 43 nations across five athletics disciplines, identifying five distinct performance archetypes. | [Live](https://lyhjeremy.github.io/national-strength-profiles/) |
-| [**Scoring-Table Fairness Audit**](https://github.com/lyhjeremy/athletics-scoring-fairness) | Non-parametric hypothesis testing (Kruskal-Wallis) on 6,400 elite marks, assessing whether World Athletics points are comparable across events. | [Live](https://lyhjeremy.github.io/athletics-scoring-fairness/) |
 
 <details>
-<summary><strong>More projects</strong> (16 additional repositories)</summary>
+<summary><strong>More projects</strong> (17 additional repositories)</summary>
 
 #### Generative AI & agents
 | Project | Methods | |
@@ -39,6 +41,8 @@ Selected work spanning generative AI, statistical modeling, and machine learning
 #### Running & sports analytics
 | Project | Methods | |
 |---|---|---|
+| [**National Strength Profiles**](https://github.com/lyhjeremy/national-strength-profiles) | K-means clustering and PCA of 43 nations across five athletics disciplines, identifying five distinct performance archetypes. | [Live](https://lyhjeremy.github.io/national-strength-profiles/) |
+| [**Scoring-Table Fairness Audit**](https://github.com/lyhjeremy/athletics-scoring-fairness) | Non-parametric hypothesis testing (Kruskal-Wallis) on 6,400 elite marks, assessing whether World Athletics points are comparable across events. | [Live](https://lyhjeremy.github.io/athletics-scoring-fairness/) |
 | [**The Heat Tax**](https://github.com/lyhjeremy/marathon-heat-tax) | Regression of Boston Marathon field times on temperature: roughly one minute slower per °F (r = 0.86). | [Live](https://lyhjeremy.github.io/marathon-heat-tax/) |
 | [**The Negative-Split Myth**](https://github.com/lyhjeremy/marathon-negative-split-myth) | Split analysis showing only 2.5% of 31,912 Boston finishers ran a faster second half. | [Live](https://lyhjeremy.github.io/marathon-negative-split-myth/) |
 | [**Hitting the Wall**](https://github.com/lyhjeremy/marathon-pacing-decay) | Per-5K split analysis locating where marathon pace decays, around 30 km. | [Live](https://lyhjeremy.github.io/marathon-pacing-decay/) |
@@ -51,9 +55,6 @@ Selected work spanning generative AI, statistical modeling, and machine learning
 |---|---|---|
 | [**Are Song Lyrics Getting Simpler?**](https://github.com/lyhjeremy/lyrics-complexity-over-time) | Fifty years of Billboard lyrics: longer and more repetitive over time, with roughly stable vocabulary. | [Live](https://lyhjeremy.github.io/lyrics-complexity-over-time/) |
 | [**Love Island Lexical Analysis**](https://github.com/lyhjeremy/love-island-lexical-analysis) | A corpus study of lexical complexity in reality-television dialogue. | [Live](https://lyhjeremy.github.io/love-island-lexical-analysis/) |
-| [**EPUB Reading-Level Analyzer**](https://github.com/lyhjeremy/epub-reading-level-analyzer) | An in-browser tool reporting a book's reading level and vocabulary load from an EPUB file. | [Live](https://lyhjeremy.github.io/epub-reading-level-analyzer/) |
-| [**Mandarin Learning Reader**](https://github.com/lyhjeremy/mandarin-learning-reader) | An interactive Mandarin reader built from any Chinese EPUB, with per-character pinyin, read-aloud, and offline pronunciation grading. | [Live](https://lyhjeremy.github.io/mandarin-learning-reader/) |
-| [**Cantonese Learner**](https://github.com/lyhjeremy/cantonese-learner) | A mobile Cantonese speaking tutor built from current Hong Kong news articles. | [Live](https://lyhjeremy.github.io/cantonese-learner/) |
 
 #### Consumer & finance
 | Project | Methods | |
