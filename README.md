@@ -30,13 +30,14 @@ Selected work spanning generative AI, statistical modeling, and machine learning
 | [**Performance Continuum**](https://github.com/lyhjeremy/marathon-performance-continuum) | Distribution fitting and extreme-value theory locating any marathon time within a field of 31,842 finishers and quantifying how far the world record sits beyond it. | [Live](https://lyhjeremy.github.io/marathon-performance-continuum/) |
 
 ## 🧪 Applied AI engineering
-Three photo-to-structured-data apps pairing an LLM pipeline with a small model **locally fine-tuned (LoRA)** to specialize on the same task, each benchmarked base vs. fine-tuned vs. Claude zero-shot.
+Four photo-to-structured-data apps pairing an LLM pipeline with a small model **locally fine-tuned (LoRA)** to specialize on the same task, each benchmarked base vs. fine-tuned vs. Claude zero-shot.
 
 | Project | Methods | |
 |---|---|---|
 | [**Cellar Scanner**](https://github.com/lyhjeremy/cellar-scanner) | Photograph a wine label for a grounded profile and food pairings cited to real reviews (local OCR + 30k-review retrieval + Claude); a locally fine-tuned Qwen2.5-1.5B LoRA guesses grape variety from a blind tasting note alone, beating Claude's own zero-shot Top-1 (27.7% vs. 23.0%). | [Live](https://lyhjeremy.github.io/cellar-scanner/) |
 | [**Menu Decoder**](https://github.com/lyhjeremy/menu-decoder) | Photograph a restaurant menu for cuisine and allergen-risk tags per dish; a fine-tuned LoRA reaches 99.3% cuisine accuracy and 69.3% allergen recall from a bare dish name, where zero-shot Claude needs the full 14-allergen schema spelled out every call just to compete. | [Live](https://lyhjeremy.github.io/menu-decoder/) |
 | [**Receipt Auditor**](https://github.com/lyhjeremy/receipt-auditor) | Photograph a receipt for automatic spend-category tagging; a fine-tuned LoRA reaches 90.5% category accuracy on held-out merchants, versus 27.7% for the base model and 56.0% for zero-shot Claude. | [Live](https://lyhjeremy.github.io/receipt-auditor/) |
+| [**Race Day Copilot**](https://github.com/lyhjeremy/race-day-copilot) | Photograph a race course map for a verified km-by-km pacing plan checked against five deterministic rules; a locally fine-tuned Qwen2.5-3B LoRA reaches near-parity with Claude on structure and plausibility, with a real remaining gap on exact split-arithmetic — plus the most instructive fine-tuning saga of the series (a memory bug that faked being alive, two loss-divergence incidents, and a custom gradient-clipping training script built from scratch). | [Live](https://lyhjeremy.github.io/race-day-copilot/) |
 
 <details>
 <summary><strong>More projects</strong> (17 additional repositories)</summary>
