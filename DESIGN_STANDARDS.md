@@ -15,6 +15,11 @@ wins. Published copy lives at
 Status: adopted 2026-08-18. Supersedes the cream/navy/gold Georgia house style
 recorded in `PROJECTS_SUMMARY.md`.
 
+## Exceptions
+
+The portfolio root site, [lyhjeremy/lyhjeremy.github.io](https://github.com/lyhjeremy/lyhjeremy.github.io), follows apple.com conventions instead of Ledger (owner's decision, 2026-08-23): system sans, white and `#f5f5f7` surfaces with an opt-in dark theme, rounded white-matted cards, six category tints, standard hover motion. `designcheck.py` is not run against that repo. Every individual project site remains under this standard, so the hub and the projects look deliberately different.
+
+
 ---
 
 ## 1. The rejection list
