@@ -4,6 +4,8 @@ Design and copy follow [these standards](https://github.com/lyhjeremy/lyhjeremy/
 
 Data scientist and UCLA Anderson MSBA. Formerly Chief Strategy Officer; now focused on applied analytics and machine learning. I turn ambiguous business problems into models and decision tools.
 
+**Portfolio:** every project below, with screenshots, charts and live links, at [lyhjeremy.github.io](https://lyhjeremy.github.io/).
+
 ```bash
 npx lyhjeremy
 ```
