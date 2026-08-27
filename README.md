@@ -1,7 +1,5 @@
 # Hi, I'm Jeremy Lee 
 
-Design and copy follow [these standards](https://github.com/lyhjeremy/lyhjeremy/blob/main/DESIGN_STANDARDS.md).
-
 Data scientist and UCLA Anderson MSBA. Formerly Chief Strategy Officer; now focused on applied analytics and machine learning. I turn ambiguous business problems into models and decision tools.
 
 **Portfolio:** every project below, with screenshots, charts and live links, at [lyhjeremy.github.io](https://lyhjeremy.github.io/).
@@ -33,6 +31,7 @@ Selected work spanning generative AI, statistical modeling, and machine learning
 | [**Marathon Training Agent**](https://github.com/lyhjeremy/marathon-training-agent) | A LangGraph agent that iteratively drafts and revises a training plan until it satisfies explicit safety checks, with a Streamlit interface. | [Live](https://lyhjeremy.github.io/marathon-training-agent/) · [Writeup](https://lyhjeremy.github.io/marathon-training-agent/overview/) |
 | [**World-Record Half-Lives**](https://github.com/lyhjeremy/world-record-half-lives) | Survival analysis (Kaplan-Meier and Cox regression) of how long track-and-field world records stand, estimating each record's probability of falling. | [Live](https://lyhjeremy.github.io/world-record-half-lives/) · [Writeup](https://lyhjeremy.github.io/world-record-half-lives/overview/) |
 | [**Performance Continuum**](https://github.com/lyhjeremy/marathon-performance-continuum) | Distribution fitting and extreme-value theory locating any marathon time within a field of 31,842 finishers and quantifying how far the world record sits beyond it. | [Live](https://lyhjeremy.github.io/marathon-performance-continuum/) · [Writeup](https://lyhjeremy.github.io/marathon-performance-continuum/overview/) |
+| [**downtime-cli**](https://github.com/lyhjeremy/downtime-cli) | A zero-dependency npm CLI that wraps any long-running command (builds, tests, `claude -p`) and fills the wait with bounded terminal trivia: 550 questions across 23 categories, flags and landmarks drawn as ANSI block art with monochrome fallback, then a warm re-entry recap with the command's untouched output and exit code. Alternate-screen TUI, process-group signal handling, playable demo in the browser. | [Live](https://lyhjeremy.github.io/downtime-cli/) |
 
 ## Applied AI engineering
 Four photo-to-structured-data apps pairing an LLM pipeline with a small model **locally fine-tuned (LoRA)** to specialize on the same task, each benchmarked base vs. fine-tuned vs. Claude zero-shot.
