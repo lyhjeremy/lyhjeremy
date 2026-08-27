@@ -4,11 +4,6 @@ Data scientist and UCLA Anderson MSBA. Formerly Chief Strategy Officer; now focu
 
 **Portfolio:** every project below, with screenshots, charts and live links, at [lyhjeremy.github.io](https://lyhjeremy.github.io/).
 
-```bash
-npx lyhjeremy
-```
-↑ run that in your terminal for the interactive version of this README
-
 ## What I work with
 - **Modeling** · scikit-learn · PyTorch · XGBoost · regression / classification / clustering · time series · neural networks · causal inference · survival analysis · A/B testing
 - **Optimization** · Gurobi · LP / IP / QP / non-convex programming · branch-and-bound · LP duality · gradient descent · simulation · Monte Carlo
