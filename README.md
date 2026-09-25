@@ -2,7 +2,7 @@
 
 Data scientist and UCLA Anderson MSBA. Formerly Chief Strategy Officer; now focused on applied analytics and machine learning. I turn ambiguous business problems into models and decision tools.
 
-**Portfolio:** every project below, with screenshots, charts and live links, at [lyhjeremy.github.io](https://lyhjeremy.github.io/).
+**Portfolio:** every project below, with screenshots, charts and live links, at [lyhjeremy.com](https://lyhjeremy.com/).
 
 ## What I work with
 - **Modeling** · scikit-learn · PyTorch · XGBoost · regression / classification / clustering · time series · neural networks · causal inference · survival analysis · A/B testing
