@@ -39,7 +39,7 @@ Four photo-to-structured-data apps pairing an LLM pipeline with a small model **
 | [**Race Day Copilot**](https://github.com/lyhjeremy/race-day-copilot) | Photograph a race course map for a verified km-by-km pacing plan checked against five deterministic rules; a locally fine-tuned Qwen2.5-3B LoRA reaches near-parity with Claude on structure and plausibility, with a real remaining gap on exact split-arithmetic, plus the most instructive fine-tuning saga of the series (a memory bug that faked being alive, two loss-divergence incidents, and a custom gradient-clipping training script built from scratch). | [Live](https://lyhjeremy.github.io/race-day-copilot/) · [Writeup](https://lyhjeremy.github.io/race-day-copilot/overview/) |
 
 <details>
-<summary><strong>More projects</strong> (17 additional repositories)</summary>
+<summary><strong>More projects</strong> (18 additional repositories)</summary>
 
 #### Generative AI & agents
 | Project | Methods | |
@@ -74,6 +74,7 @@ Four photo-to-structured-data apps pairing an LLM pipeline with a small model **
 #### Apps & tools
 | Project | Methods | |
 |---|---|---|
+| [**Fourier Pen**](https://github.com/lyhjeremy/fourier-pen) | Turns any picture or text prompt into one continuous line and animates a chain of rotating arrows drawing it: a complex Fourier series you can watch, read and export as a wallpaper or video. Canny edges, a minimum-spanning-tree Euler tour so the pen never lifts, a direct DFT, all in the browser. | [Live](https://fourier-pen.vercel.app/) · [Writeup](https://fourier-pen.vercel.app/overview/) |
 | [**Leave Time Optimizer**](https://github.com/lyhjeremy/leave-time-optimizer) | A routing tool that computes when to depart to arrive on time, using the Google Maps API. | [Live](https://lyhjeremy.github.io/leave-time-optimizer/) · [Writeup](https://lyhjeremy.github.io/leave-time-optimizer/overview/) |
 | [**EPUB → Audiobook**](https://github.com/lyhjeremy/epub-to-audiobook) | A desktop app that converts e-books into read-along audiobooks (English and Chinese). | [Live](https://lyhjeremy.github.io/epub-to-audiobook/) · [Writeup](https://lyhjeremy.github.io/epub-to-audiobook/overview/) |
 | [**Podcastify**](https://github.com/lyhjeremy/podcastify) | Converts an e-book or article into a two-host podcast with synthetic voices. | [Live](https://lyhjeremy.github.io/podcastify/) · [Writeup](https://lyhjeremy.github.io/podcastify/overview/) |
