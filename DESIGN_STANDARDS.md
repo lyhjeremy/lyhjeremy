@@ -22,6 +22,34 @@ The portfolio root site at [lyhjeremy.com](https://lyhjeremy.com/) (repo [lyhjer
 
 ---
 
+## Families (amendment, 2026-10-26)
+
+Every project page used the same oxide-and-pine palette and the same two faces, so thirty
+projects read as one template with different charts. Project pages now belong to one of five
+families. Each family has its own pair of accents and one display face; every ban in this
+file still applies, and so do the two-accents-per-page and 60% saturation rules.
+
+| Family | Projects | Display face | Accents (light) | Layout moves |
+|---|---|---|---|---|
+| road | marathon studies and marathon AI tools | Barlow Condensed | rust `#94462A`, course blue `#1F4A72` | condensed caps, dashed course-line spine |
+| track | track-and-field studies | Big Shoulders Display | clay `#A0362B`, infield `#2F5E3E` | ink scoreboard for key numbers, numbered lanes |
+| cellar | wine projects | Cormorant Garamond | claret `#7A2335`, olive gold `#6A5A1E` | centered wine-list masthead, italic notes, dotted leaders |
+| language | NLP, reading and language learning | Newsreader | seal red `#9E3A2C`, ink blue `#284B73` | italic glosses, section labels in the margin |
+| workshop | tools, finance, OCR apps | IBM Plex Sans Condensed, Plex Mono 600 | green `#2F6243`, amber `#7C5A26` | boxed spec-sheet masthead, mono figures, numbered sections |
+
+Each family keeps its own paper, ink and dark-mode values. Every pair was measured against
+WCAG 2.1 on 2026-10-26 (all text pairs clear 4.5:1, every edge clears 3:1); the numbers come
+from `python3 _ai-projects-tooling/ledger/families/palettes.py`. Section 2 below remains the
+base identity and the default for pages that have no family.
+
+Source of truth: `_ai-projects-tooling/ledger/families/` (`palettes.py`, `families.py`, the
+generated `tokens/<family>.css` for hand-written landing pages, and the self-hosted display
+faces in `fonts/`). The overview builder takes a `"family"` key in a fragment's spec, which
+replaces the per-page `palette` overrides. Those overrides were how Tailwind oranges and teals
+had crept back onto several pages.
+
+---
+
 ## 1. The rejection list
 
 Thirty patterns. Every one of these is a hard no. The right-hand column is the
