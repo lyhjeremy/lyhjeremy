@@ -31,7 +31,7 @@ Four photo-to-structured-data apps. Each one pairs an LLM pipeline with a small 
 
 Running and wine supply most of the questions: I have run 14 marathons (2:48 in Berlin) and hold WSET Level 3.
 
-- **[The Heat Tax](https://lyhjeremy.github.io/marathon-heat-tax/)**: across 14 Boston Marathons, the median finish slows about a minute per °F (r = 0.86). A hot day costs the typical runner 31 minutes.
+- **[The Heat Tax](https://lyhjeremy.github.io/marathon-heat-tax/)**: across Boston Marathons from 2001 to 2014 (2013 excluded), the median finish slows about a minute per °F (r = 0.86). A hot day costs the typical runner 31 minutes.
 - **[Wine Score Inflation](https://lyhjeremy.github.io/wine-score-inflation/)**: the 100-point scale works like an 8-point one. Nothing in 130k reviews scores below 80, and 86% land between 84 and 92.
 - **[The Negative-Split Myth](https://lyhjeremy.github.io/marathon-negative-split-myth/)**: of 31,912 Boston finishers, 2.5% ran the faster second half coaches recommend. The median runner slowed 14%.
 - **[Are Song Lyrics Getting Simpler?](https://lyhjeremy.github.io/lyrics-complexity-over-time/)**: 50 years of Billboard hits doubled in length and got more repetitive, but the vocabulary did not shrink.
@@ -48,9 +48,9 @@ Running and wine supply most of the questions: I have run 14 marathons (2:48 in 
 #### Running and sports analytics
 - [Performance Continuum](https://github.com/lyhjeremy/marathon-performance-continuum): distribution fitting and extreme-value theory on 31,842 finishers, and how far the world record sits beyond them. [Live](https://lyhjeremy.github.io/marathon-performance-continuum/)
 - [National Strength Profiles](https://github.com/lyhjeremy/national-strength-profiles): k-means and PCA on 43 nations across five disciplines; five archetypes. [Live](https://lyhjeremy.github.io/national-strength-profiles/)
-- [Hitting the Wall](https://github.com/lyhjeremy/marathon-pacing-decay): per-5K splits from 31,655 runners; pace holds to about 30 km, then slows 15% at the median. [Live](https://lyhjeremy.github.io/marathon-pacing-decay/)
+- [Hitting the Wall](https://github.com/lyhjeremy/marathon-pacing-decay): per-5K splits from 31,655 Boston runners; pace drifts after 10 km, then drops sharply between 20 and 35 km. The median late-race slowdown is 15%. [Live](https://lyhjeremy.github.io/marathon-pacing-decay/)
 - [Boston BQ Fairness](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness): are Boston qualifying times equally hard across age and gender groups? [Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/)
-- [Marathon Majors Course Difficulty](https://github.com/lyhjeremy/marathon-majors-course-difficulty): three methods for comparing course speed across the six Majors. [Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/)
+- [Marathon Majors Course Difficulty](https://github.com/lyhjeremy/marathon-majors-course-difficulty): three methods for ranking course difficulty across the six Majors, tested on simulated races with planted course penalties; the paired method recovers each within 7.3 s. [Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/)
 - [Marathon Shoe Revolution](https://github.com/lyhjeremy/marathon-shoe-revolution-decomposition): how much of the recent drop in marathon times is the shoes. [Live](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/)
 
 #### Language and NLP
