@@ -1,93 +1,81 @@
-# Hi, I'm Jeremy Lee 
+# Jeremy Lee
 
-Data scientist and UCLA Anderson MSBA. Formerly Chief Strategy Officer; now focused on applied analytics and machine learning. I turn ambiguous business problems into models and decision tools.
+Data scientist who ships applied AI. I build the model, the evaluation that tells me whether it works, and the product someone can actually open. UCLA Anderson MSBA; before that, co-founder and Chief Strategy Officer of an education business that I helped grow 5.2x to over 1,000 students across six centers.
 
-**Portfolio:** every project below, with screenshots, charts and live links, at [lyhjeremy.com](https://lyhjeremy.com/).
+**[lyhjeremy.com](https://lyhjeremy.com/)** has every project with screenshots and charts · [LinkedIn](https://www.linkedin.com/in/jeremylyh/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
 
-## What I work with
-- **Modeling** · scikit-learn · PyTorch · XGBoost · regression / classification / clustering · time series · neural networks · causal inference · survival analysis · A/B testing
-- **Optimization** · Gurobi · LP / IP / QP / non-convex programming · branch-and-bound · LP duality · gradient descent · simulation · Monte Carlo
-- **GenAI** · LLM prompting · RAG · embeddings · vector databases · fine-tuning · OpenAI / Anthropic APIs · NLP
-- **Agents & orchestration** · LangChain · LangGraph · agentic workflows · tool use · retrieval pipelines · multi-step reasoning
-- **Data & tools** · Python · R · SQL · Snowflake · Airflow · Spark / PySpark · Tableau · Power BI · Excel · Git · GCS · Jupyter
-- **Deployment & apps** · GitHub Pages · Streamlit · interactive dashboards · desktop apps · live demos · reproducible pipelines
+## Selected work
 
-## Featured projects
-Selected work spanning generative AI, statistical modeling, and machine learning. Each title links to the code, **Live** opens the project itself, and **Writeup** opens a long-form page on how it works and what it found. The full set of projects is in the dropdown below.
+| Project | What it is | Result | |
+|---|---|---|---|
+| [**SkillCompass**](https://github.com/lyhjeremy/skill-compass) | Two-minute skill checks in 40+ fields. Elo-style item and ability calibration fitted to real responses, live peer percentiles, and three LLM features: resume-gap analysis, a mock-interview agent and a study guide. FastAPI backend. | Full stack running on $0 a month | [Live](https://lyhjeremy.github.io/skill-compass/) · [Write-up](https://lyhjeremy.github.io/skill-compass/overview/) |
+| [**Leeway**](https://github.com/lyhjeremy/leeway) | EV trip planner for the battery a car has after five years. Range adjusted for elevation and weather, charger stops under a hard reserve, and a detour budget spent avoiding unprotected left turns and rail crossings. | Logged trips correct its own range estimates | [Live](https://lyhjeremy.github.io/leeway/) · [Write-up](https://lyhjeremy.github.io/leeway/overview/) |
+| [**Wine Sommelier RAG**](https://github.com/lyhjeremy/wine-sommelier-rag) | Plain-English wine search over 130k professional reviews. Hybrid BM25 and dense retrieval with a cross-encoder reranker; every pick is cited. | Precision and nDCG up about 21% over a dense baseline | [Live](https://lyhjeremy.github.io/wine-sommelier-rag/) · [Write-up](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) |
+| [**World-Record Half-Lives**](https://github.com/lyhjeremy/world-record-half-lives) | Survival analysis of ~250 track-and-field record reigns, treating standing records as right-censored. Kaplan-Meier and Cox regression. | Median reign about 1.5 years; fall odds for every current record | [Live](https://lyhjeremy.github.io/world-record-half-lives/) · [Write-up](https://lyhjeremy.github.io/world-record-half-lives/overview/) |
+| [**One in a Hundred**](https://github.com/lyhjeremy/one-in-a-hundred) | What it takes to be in the top 1% of a group, on income, wealth, height, life expectancy and more. Each fact is graded A to D by source agreement, with the full distribution drawn underneath. | 950 facts from 72 sources; question parser 90.5% exact on a 200-question gold set | [Live](https://lyhjeremy.github.io/one-in-a-hundred/) |
+| [**Cantonese Learner**](https://github.com/lyhjeremy/cantonese-learner-v2) | Today's Hong Kong news rewritten into spoken Cantonese by an LLM with a review pass, plus an everyday-conversation course. Neural zh-HK audio, jyutping, tap-to-compare and speech grading. | Rebuilt daily, costs nothing to run | [Live](https://lyhjeremy.github.io/cantonese-learner-v2/) · [Write-up](https://lyhjeremy.github.io/cantonese-learner-v2/overview/) |
+| [**Fourier Pen**](https://github.com/lyhjeremy/fourier-pen) | Any picture or text prompt becomes one continuous line, drawn by a chain of rotating arrows. Canny edges, a minimum-spanning-tree Euler tour so the pen never lifts, and a direct DFT, all in the browser. | Exports wallpapers and video | [Live](https://fourier-pen.vercel.app/) · [Write-up](https://fourier-pen.vercel.app/overview/) |
 
-| Project | Methods | |
-|---|---|---|
-| [**SkillCompass**](https://github.com/lyhjeremy/skill-compass) | A live skill-assessment platform: Elo-style calibration (item difficulty and ability estimation) recalibrated from real quiz responses, live peer percentiles, and three LLM-backed features: resume-gap analysis, a mock-interview agent, and a personalized study guide. Full-stack, $0/month infrastructure. | [Live](https://lyhjeremy.github.io/skill-compass/) · [Writeup](https://lyhjeremy.github.io/skill-compass/overview/) |
-| [**Leeway**](https://github.com/lyhjeremy/leeway) | An EV road-trip planner built around the battery a car actually has after five years, not its spec sheet: elevation- and weather-adjusted range modeling over live routing data, charger selection under a hard reserve constraint, and hazard-aware rerouting that spends a user-set detour budget to avoid unprotected left turns, unsignaled multi-lane crossings and rail crossings. Logged trips feed a deliberately asymmetric self-correction of its own range estimates. | [Live](https://lyhjeremy.github.io/leeway/) · [Writeup](https://lyhjeremy.github.io/leeway/overview/) |
-| [**Mandarin Learning Reader**](https://github.com/lyhjeremy/mandarin-learning-reader) | An interactive Mandarin tutor built from any Chinese EPUB: pinyin over every character, natural read-aloud, and offline speak-back pronunciation grading. | [Live](https://lyhjeremy.github.io/mandarin-learning-reader/) · [Writeup](https://lyhjeremy.github.io/mandarin-learning-reader/overview/) |
-| [**Cantonese Learner**](https://github.com/lyhjeremy/cantonese-learner-v2) | Learn to speak Cantonese from today's HK news plus a 96-scenario everyday-conversations curriculum: LLM rewrite with a review pass, neural zh-HK audio, jyutping, tap-to-compare, and speech grading. | [Live](https://lyhjeremy.github.io/cantonese-learner-v2/) · [Writeup](https://lyhjeremy.github.io/cantonese-learner-v2/overview/) |
-| [**EPUB Reading-Level Analyzer**](https://github.com/lyhjeremy/epub-reading-level-analyzer) | Drop in any EPUB and see its reading grade level, vocabulary richness, and word-coverage curve. Runs entirely in the browser, nothing uploaded. | [Live](https://lyhjeremy.github.io/epub-reading-level-analyzer/) · [Writeup](https://lyhjeremy.github.io/epub-reading-level-analyzer/overview/) |
-| [**Wine Sommelier RAG**](https://github.com/lyhjeremy/wine-sommelier-rag) | Semantic search over 130k wine reviews using hybrid BM25 and dense retrieval with a cross-encoder reranker, evaluated on retrieval quality (precision and nDCG up roughly 21%). | [Live](https://lyhjeremy.github.io/wine-sommelier-rag/) · [Writeup](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) |
-| [**Marathon Training Agent**](https://github.com/lyhjeremy/marathon-training-agent) | A LangGraph agent that iteratively drafts and revises a training plan until it satisfies explicit safety checks, with a Streamlit interface. | [Live](https://lyhjeremy.github.io/marathon-training-agent/) · [Writeup](https://lyhjeremy.github.io/marathon-training-agent/overview/) |
-| [**World-Record Half-Lives**](https://github.com/lyhjeremy/world-record-half-lives) | Survival analysis (Kaplan-Meier and Cox regression) of how long track-and-field world records stand, estimating each record's probability of falling. | [Live](https://lyhjeremy.github.io/world-record-half-lives/) · [Writeup](https://lyhjeremy.github.io/world-record-half-lives/overview/) |
-| [**Performance Continuum**](https://github.com/lyhjeremy/marathon-performance-continuum) | Distribution fitting and extreme-value theory locating any marathon time within a field of 31,842 finishers and quantifying how far the world record sits beyond it. | [Live](https://lyhjeremy.github.io/marathon-performance-continuum/) · [Writeup](https://lyhjeremy.github.io/marathon-performance-continuum/overview/) |
-| [**downtime-cli**](https://github.com/lyhjeremy/downtime-cli) | A zero-dependency npm CLI that wraps any long-running command (builds, tests, `claude -p`) and fills the wait with bounded terminal trivia: 550 questions across 23 categories, flags and landmarks drawn as ANSI block art with monochrome fallback, then a warm re-entry recap with the command's untouched output and exit code. Alternate-screen TUI, process-group signal handling, playable demo in the browser. | [Live](https://lyhjeremy.github.io/downtime-cli/) |
-| [**One in a Hundred**](https://github.com/lyhjeremy/one-in-a-hundred) | What it takes to be in the top 1%, top 10% or the median of any group on income, wealth, height, weight, BMI, age or life expectancy: 818 percentile facts from 7 official sources across 20 countries, each graded A to D by cross-source agreement with the spread and sources shown. Typed questions parsed by a rules parser scoring 90% on a frozen 200-question set; the "$30k is the global 1%" claim lands at the 75th percentile under WID and the 94th under the World Bank. | [Live](https://lyhjeremy.github.io/one-in-a-hundred/) · [Writeup](https://lyhjeremy.github.io/one-in-a-hundred/overview/) |
+## The fine-tuning series
 
-## Applied AI engineering
-Four photo-to-structured-data apps pairing an LLM pipeline with a small model **locally fine-tuned (LoRA)** to specialize on the same task, each benchmarked base vs. fine-tuned vs. Claude zero-shot.
+Four photo-to-structured-data apps. Each one pairs an LLM pipeline with a small open model fine-tuned on my laptop (LoRA on Qwen2.5) for the same task, then benchmarks base vs. fine-tuned vs. Claude zero-shot on held-out data.
 
-| Project | Methods | |
-|---|---|---|
-| [**Cellar Scanner**](https://github.com/lyhjeremy/cellar-scanner) | Photograph a wine label for a grounded profile and food pairings cited to real reviews (local OCR + 30k-review retrieval + Claude); a locally fine-tuned Qwen2.5-1.5B LoRA guesses grape variety from a blind tasting note alone, beating Claude's own zero-shot Top-1 (27.7% vs. 23.0%). | [Live](https://lyhjeremy.github.io/cellar-scanner/) · [Writeup](https://lyhjeremy.github.io/cellar-scanner/overview/) |
-| [**Menu Decoder**](https://github.com/lyhjeremy/menu-decoder) | Photograph a restaurant menu for cuisine and allergen-risk tags per dish; a fine-tuned LoRA reaches 99.3% cuisine accuracy and 69.3% allergen recall from a bare dish name, where zero-shot Claude needs the full 14-allergen schema spelled out every call just to compete. | [Live](https://lyhjeremy.github.io/menu-decoder/) · [Writeup](https://lyhjeremy.github.io/menu-decoder/overview/) |
-| [**Receipt Auditor**](https://github.com/lyhjeremy/receipt-auditor) | Photograph a receipt for automatic spend-category tagging; a fine-tuned LoRA reaches 90.5% category accuracy on held-out merchants, versus 27.7% for the base model and 56.0% for zero-shot Claude. | [Live](https://lyhjeremy.github.io/receipt-auditor/) · [Writeup](https://lyhjeremy.github.io/receipt-auditor/overview/) |
-| [**Race Day Copilot**](https://github.com/lyhjeremy/race-day-copilot) | Photograph a race course map for a verified km-by-km pacing plan checked against five deterministic rules; a locally fine-tuned Qwen2.5-3B LoRA reaches near-parity with Claude on structure and plausibility, with a real remaining gap on exact split-arithmetic, plus the most instructive fine-tuning saga of the series (a memory bug that faked being alive, two loss-divergence incidents, and a custom gradient-clipping training script built from scratch). | [Live](https://lyhjeremy.github.io/race-day-copilot/) · [Writeup](https://lyhjeremy.github.io/race-day-copilot/overview/) |
+| App | Task for the fine-tuned model | Fine-tuned | Claude zero-shot | |
+|---|---|---|---|---|
+| [**Receipt Auditor**](https://github.com/lyhjeremy/receipt-auditor) | Spend category for merchants it has never seen | **90.5%** | 56.0% | [Live](https://lyhjeremy.github.io/receipt-auditor/) · [Write-up](https://lyhjeremy.github.io/receipt-auditor/overview/) |
+| [**Cellar Scanner**](https://github.com/lyhjeremy/cellar-scanner) | Grape variety from a blind tasting note (1.5B model) | **27.7%** top-1 | 23.0% | [Live](https://lyhjeremy.github.io/cellar-scanner/) · [Write-up](https://lyhjeremy.github.io/cellar-scanner/overview/) |
+| [**Menu Decoder**](https://github.com/lyhjeremy/menu-decoder) | Cuisine and 14-allergen tags from a bare dish name | **99.3%** cuisine, 69.3% allergen recall | needs the full schema in every prompt | [Live](https://lyhjeremy.github.io/menu-decoder/) · [Write-up](https://lyhjeremy.github.io/menu-decoder/overview/) |
+| [**Race Day Copilot**](https://github.com/lyhjeremy/race-day-copilot) | Km-by-km pacing plan from a course map, checked by five deterministic rules (3B model) | near parity on structure | gap remains on split arithmetic | [Live](https://lyhjeremy.github.io/race-day-copilot/) · [Write-up](https://lyhjeremy.github.io/race-day-copilot/overview/) |
+
+## Data stories
+
+Running and wine supply most of the questions: I have run 14 marathons (2:48 in Berlin) and hold WSET Level 3.
+
+- **[The Heat Tax](https://lyhjeremy.github.io/marathon-heat-tax/)**: across 14 Boston Marathons, the median finish slows about a minute per °F (r = 0.86). A hot day costs the typical runner 31 minutes.
+- **[Wine Score Inflation](https://lyhjeremy.github.io/wine-score-inflation/)**: the 100-point scale works like an 8-point one. Nothing in 130k reviews scores below 80, and 86% land between 84 and 92.
+- **[The Negative-Split Myth](https://lyhjeremy.github.io/marathon-negative-split-myth/)**: of 31,912 Boston finishers, 2.5% ran the faster second half coaches recommend. The median runner slowed 14%.
+- **[Are Song Lyrics Getting Simpler?](https://lyhjeremy.github.io/lyrics-complexity-over-time/)**: 50 years of Billboard hits doubled in length and got more repetitive, but the vocabulary did not shrink.
+- **[Scoring-Table Fairness](https://lyhjeremy.github.io/athletics-scoring-fairness/)**: Kruskal-Wallis tests on 6,400 elite marks. The best performers in some events score 68 points higher than in others.
 
 <details>
-<summary><strong>More projects</strong> (18 additional repositories)</summary>
+<summary><strong>More projects</strong>, grouped by theme</summary>
 
-#### Generative AI & agents
-| Project | Methods | |
-|---|---|---|
-| [**Marathon Strategy RAG**](https://github.com/lyhjeremy/marathon-strategy-rag) | Grounded retrieval-augmented Q&A that cites its sources, evaluated with an LLM-as-judge faithfulness metric; includes a LangChain LCEL implementation. | [Live](https://lyhjeremy.github.io/marathon-strategy-rag/) · [Writeup](https://lyhjeremy.github.io/marathon-strategy-rag/overview/) |
-| [**Wine Pairing Agent**](https://github.com/lyhjeremy/wine-pairing-agent) | A LangGraph agent that infers a wine style and calls the retriever as a LangChain tool, with full run tracing. | [Live](https://lyhjeremy.github.io/wine-pairing-agent/) · [Writeup](https://lyhjeremy.github.io/wine-pairing-agent/overview/) |
+#### Generative AI and agents
+- [Marathon Strategy RAG](https://github.com/lyhjeremy/marathon-strategy-rag): cited Q&A over marathon science and my own Boston analyses, scored with an LLM-as-judge faithfulness metric; includes a LangChain LCEL version. [Live](https://lyhjeremy.github.io/marathon-strategy-rag/)
+- [Marathon Training Agent](https://github.com/lyhjeremy/marathon-training-agent): a LangGraph agent that drafts a training plan and revises it until it passes explicit safety checks. Streamlit UI. [Live](https://lyhjeremy.github.io/marathon-training-agent/)
+- [Wine Pairing Agent](https://github.com/lyhjeremy/wine-pairing-agent): a LangGraph agent that reasons from pairing principles to a style, searches 130k reviews as a tool, and critiques its own pick. [Live](https://lyhjeremy.github.io/wine-pairing-agent/)
 
-#### Running & sports analytics
-| Project | Methods | |
-|---|---|---|
-| [**National Strength Profiles**](https://github.com/lyhjeremy/national-strength-profiles) | K-means clustering and PCA of 43 nations across five athletics disciplines, identifying five distinct performance archetypes. | [Live](https://lyhjeremy.github.io/national-strength-profiles/) · [Writeup](https://lyhjeremy.github.io/national-strength-profiles/overview/) |
-| [**Scoring-Table Fairness Audit**](https://github.com/lyhjeremy/athletics-scoring-fairness) | Non-parametric hypothesis testing (Kruskal-Wallis) on 6,400 elite marks, assessing whether World Athletics points are comparable across events. | [Live](https://lyhjeremy.github.io/athletics-scoring-fairness/) · [Writeup](https://lyhjeremy.github.io/athletics-scoring-fairness/overview/) |
-| [**The Heat Tax**](https://github.com/lyhjeremy/marathon-heat-tax) | Regression of Boston Marathon field times on temperature: roughly one minute slower per °F (r = 0.86). | [Live](https://lyhjeremy.github.io/marathon-heat-tax/) · [Writeup](https://lyhjeremy.github.io/marathon-heat-tax/overview/) |
-| [**The Negative-Split Myth**](https://github.com/lyhjeremy/marathon-negative-split-myth) | Split analysis showing only 2.5% of 31,912 Boston finishers ran a faster second half. | [Live](https://lyhjeremy.github.io/marathon-negative-split-myth/) · [Writeup](https://lyhjeremy.github.io/marathon-negative-split-myth/overview/) |
-| [**Hitting the Wall**](https://github.com/lyhjeremy/marathon-pacing-decay) | Per-5K split analysis locating where marathon pace decays, around 30 km. | [Live](https://lyhjeremy.github.io/marathon-pacing-decay/) · [Writeup](https://lyhjeremy.github.io/marathon-pacing-decay/overview/) |
-| [**Boston BQ Fairness**](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness) | An equity analysis of Boston qualifying standards across age and gender brackets. | [Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/) · [Writeup](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/overview/) |
-| [**Marathon Majors Course Difficulty**](https://github.com/lyhjeremy/marathon-majors-course-difficulty) | A three-framework comparison of finishing speed across the six World Marathon Majors. | [Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/) · [Writeup](https://lyhjeremy.github.io/marathon-majors-course-difficulty/overview/) |
-| [**Marathon Shoe Revolution**](https://github.com/lyhjeremy/marathon-shoe-revolution-decomposition) | Decomposition of recent marathon progression into footwear effects versus other factors. | [Live](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/) · [Writeup](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/overview/) |
+#### Running and sports analytics
+- [Performance Continuum](https://github.com/lyhjeremy/marathon-performance-continuum): distribution fitting and extreme-value theory on 31,842 finishers, and how far the world record sits beyond them. [Live](https://lyhjeremy.github.io/marathon-performance-continuum/)
+- [National Strength Profiles](https://github.com/lyhjeremy/national-strength-profiles): k-means and PCA on 43 nations across five disciplines; five archetypes. [Live](https://lyhjeremy.github.io/national-strength-profiles/)
+- [Hitting the Wall](https://github.com/lyhjeremy/marathon-pacing-decay): per-5K splits from 31,655 runners; pace holds to about 30 km, then slows 15% at the median. [Live](https://lyhjeremy.github.io/marathon-pacing-decay/)
+- [Boston BQ Fairness](https://github.com/lyhjeremy/boston-marathon-qualifying-fairness): are Boston qualifying times equally hard across age and gender groups? [Live](https://lyhjeremy.github.io/boston-marathon-qualifying-fairness/)
+- [Marathon Majors Course Difficulty](https://github.com/lyhjeremy/marathon-majors-course-difficulty): three methods for comparing course speed across the six Majors. [Live](https://lyhjeremy.github.io/marathon-majors-course-difficulty/)
+- [Marathon Shoe Revolution](https://github.com/lyhjeremy/marathon-shoe-revolution-decomposition): how much of the recent drop in marathon times is the shoes. [Live](https://lyhjeremy.github.io/marathon-shoe-revolution-decomposition/)
 
-#### Language & NLP
-| Project | Methods | |
-|---|---|---|
-| [**Are Song Lyrics Getting Simpler?**](https://github.com/lyhjeremy/lyrics-complexity-over-time) | Fifty years of Billboard lyrics: longer and more repetitive over time, with roughly stable vocabulary. | [Live](https://lyhjeremy.github.io/lyrics-complexity-over-time/) · [Writeup](https://lyhjeremy.github.io/lyrics-complexity-over-time/overview/) |
-| [**Love Island Lexical Analysis**](https://github.com/lyhjeremy/love-island-lexical-analysis) | A corpus study of lexical complexity in reality-television dialogue. | [Live](https://lyhjeremy.github.io/love-island-lexical-analysis/) · [Writeup](https://lyhjeremy.github.io/love-island-lexical-analysis/overview/) |
+#### Language and NLP
+- [Mandarin Learning Reader](https://github.com/lyhjeremy/mandarin-learning-reader): a tutor built from any Chinese EPUB, with pinyin over every character, read-aloud and offline pronunciation grading. [Live](https://lyhjeremy.github.io/mandarin-learning-reader/)
+- [EPUB Reading-Level Analyzer](https://github.com/lyhjeremy/epub-reading-level-analyzer): grade level, vocabulary richness and word-coverage curve for any EPUB, entirely in the browser. [Live](https://lyhjeremy.github.io/epub-reading-level-analyzer/)
+- [Love Island Lexical Analysis](https://github.com/lyhjeremy/love-island-lexical-analysis): 61% of everything said is the top 100 words; about 1,250 words cover 95%. [Live](https://lyhjeremy.github.io/love-island-lexical-analysis/)
+- [Podcastify](https://github.com/lyhjeremy/podcastify): turns an EPUB or article into a two-host podcast with free neural voices. [Live](https://lyhjeremy.github.io/podcastify/)
+- [EPUB to Audiobook](https://github.com/lyhjeremy/epub-to-audiobook): a desktop app for read-along audiobooks in English, Mandarin and Cantonese. [Live](https://lyhjeremy.github.io/epub-to-audiobook/)
 
-#### Consumer & finance
-| Project | Methods | |
-|---|---|---|
-| [**Wine Score Inflation**](https://github.com/lyhjeremy/wine-score-inflation) | How 130k professional reviews cluster into an effective 8-point band on the nominal 100-point scale. | [Live](https://lyhjeremy.github.io/wine-score-inflation/) · [Writeup](https://lyhjeremy.github.io/wine-score-inflation/overview/) |
-| [**When Can I Retire?**](https://github.com/lyhjeremy/fire-retirement-simulator) | A Monte-Carlo retirement simulator estimating the probability a portfolio lasts through retirement. | [Live](https://lyhjeremy.github.io/fire-retirement-simulator/) · [Writeup](https://lyhjeremy.github.io/fire-retirement-simulator/overview/) |
-
-#### Apps & tools
-| Project | Methods | |
-|---|---|---|
-| [**Fourier Pen**](https://github.com/lyhjeremy/fourier-pen) | Turns any picture or text prompt into one continuous line and animates a chain of rotating arrows drawing it: a complex Fourier series you can watch, read and export as a wallpaper or video. Canny edges, a minimum-spanning-tree Euler tour so the pen never lifts, a direct DFT, all in the browser. | [Live](https://fourier-pen.vercel.app/) · [Writeup](https://fourier-pen.vercel.app/overview/) |
-| [**Leave Time Optimizer**](https://github.com/lyhjeremy/leave-time-optimizer) | A routing tool that computes when to depart to arrive on time, using the Google Maps API. | [Live](https://lyhjeremy.github.io/leave-time-optimizer/) · [Writeup](https://lyhjeremy.github.io/leave-time-optimizer/overview/) |
-| [**EPUB → Audiobook**](https://github.com/lyhjeremy/epub-to-audiobook) | A desktop app that converts e-books into read-along audiobooks (English and Chinese). | [Live](https://lyhjeremy.github.io/epub-to-audiobook/) · [Writeup](https://lyhjeremy.github.io/epub-to-audiobook/overview/) |
-| [**Podcastify**](https://github.com/lyhjeremy/podcastify) | Converts an e-book or article into a two-host podcast with synthetic voices. | [Live](https://lyhjeremy.github.io/podcastify/) · [Writeup](https://lyhjeremy.github.io/podcastify/overview/) |
+#### Tools and finance
+- [When Can I Retire?](https://github.com/lyhjeremy/fire-retirement-simulator): a Monte Carlo FIRE simulator that runs in the browser and returns the probability your money lasts. [Live](https://lyhjeremy.github.io/fire-retirement-simulator/)
+- [Leave Time Optimizer](https://github.com/lyhjeremy/leave-time-optimizer): when to leave to arrive on time, from the Google Maps API. [Live](https://lyhjeremy.github.io/leave-time-optimizer/)
+- [downtime-cli](https://github.com/lyhjeremy/downtime-cli): a zero-dependency npm CLI that fills a long build or test run with terminal trivia, then hands you back the untouched output. [Live](https://lyhjeremy.github.io/downtime-cli)
 
 </details>
 
-## Experience & education
-- **Co-founder & Chief Strategy Officer**, Casual Ace Learning Centre: grew enrollment 5.2× to over 1,000 students across six centers.
-- **MSBA**, UCLA Anderson · graduate analytics coursework, Georgia Tech · **BBA** (Accounting & Finance), University of Hong Kong.
+## Toolkit
 
-## Outside the terminal
-14 marathons, Berlin personal best of 2:48 · WSET Level 3 in wine.
+- **Modeling:** scikit-learn, PyTorch, XGBoost; regression, classification, clustering, time series, survival analysis, causal inference, A/B testing
+- **GenAI:** RAG (BM25, dense, reranking), embeddings and vector stores, LoRA fine-tuning, LLM-as-judge evaluation, LangChain, LangGraph, Anthropic and OpenAI APIs
+- **Optimization:** Gurobi; LP, IP, QP and non-convex programs; Monte Carlo simulation
+- **Data and deployment:** Python, R, SQL, Snowflake, Airflow, Spark, Tableau, Power BI; FastAPI, Streamlit, Render, Vercel, GitHub Pages
 
-## Contact
-[LinkedIn](https://www.linkedin.com/in/jeremylyh/) · [Email](mailto:lyhjeremy@gmail.com)
+## Education
+
+MSBA, UCLA Anderson School of Management · graduate analytics coursework, Georgia Tech · BBA in Accounting and Finance, University of Hong Kong
+
+<sub>Design and copy across these repos follow [these standards](DESIGN_STANDARDS.md).</sub>
