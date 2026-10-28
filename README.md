@@ -27,7 +27,7 @@ Four photo-to-structured-data apps. Each one pairs an LLM pipeline with a small 
 | [**Menu Decoder**](https://github.com/lyhjeremy/menu-decoder) | Cuisine and 14-allergen tags from a bare dish name | **99.3%** cuisine with no schema in the prompt; 69.3% allergen recall | 79.2% allergen recall<sup>3</sup> | [Live](https://lyhjeremy.github.io/menu-decoder/) · [Write-up](https://lyhjeremy.github.io/menu-decoder/overview/) |
 | [**Race Day Copilot**](https://github.com/lyhjeremy/race-day-copilot) | Km-by-km pacing plan from a course map, checked by six deterministic rules (3B model) | near parity on structure | ahead on split arithmetic | [Live](https://lyhjeremy.github.io/race-day-copilot/) · [Write-up](https://lyhjeremy.github.io/race-day-copilot/overview/) |
 
-<sub>1. As scored. Claude's answers drew on the project's category list, and the scorer read the longest category in its reply; reading the first category it names gives about 74.7%. The fine-tuned model still leads. 2. Claude was scored on a different subsample, and the gap is within noise. 3. Claude needs the full allergen schema in every prompt to get there; the fine-tuned model gets only the dish name.</sub>
+<sub>1. As scored. Claude's answers drew on the project's category list, and the original scorer's rule is lost; reading the first category Claude names gives about 74.7%. The fine-tuned model still leads. 2. Scored on the same 200 notes, the fine-tuned model is right on 55 and Claude on 46 (sign test p = 0.33), so the gap is within noise. 3. Claude needs the full allergen schema in every prompt to get there; the fine-tuned model gets only the dish name.</sub>
 
 ## Data stories
 
