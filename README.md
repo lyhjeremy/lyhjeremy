@@ -1,8 +1,8 @@
 # Jeremy Lee
 
-Data scientist who ships applied AI. I build the model, the evaluation that tells me whether it works, and the product someone can actually open. UCLA Anderson MSBA; before that, co-founder and Chief Strategy Officer of an education business that I helped grow 5.2x to over 1,000 students across six centers.
+Data scientist. I build models, the tests that show whether they work, and the apps people open to use them. UCLA Anderson MSBA. Before that I co-founded an education business and, as Chief Strategy Officer, grew it 5.2 times to more than 1,000 students across six centers.
 
-**[lyhjeremy.com](https://lyhjeremy.com/)** has every project with screenshots and charts · [LinkedIn](https://www.linkedin.com/in/jeremylyh/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
+**[lyhjeremy.com](https://lyhjeremy.com/)** has all 33 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/jeremylyh/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
 
 ## Selected work
 
@@ -22,10 +22,12 @@ Four photo-to-structured-data apps. Each one pairs an LLM pipeline with a small 
 
 | App | Task for the fine-tuned model | Fine-tuned | Claude zero-shot | |
 |---|---|---|---|---|
-| [**Receipt Auditor**](https://github.com/lyhjeremy/receipt-auditor) | Spend category for merchants it has never seen | **90.5%** | 56.0% as scored; the gap is overstated (see the write-up) | [Live](https://lyhjeremy.github.io/receipt-auditor/) · [Write-up](https://lyhjeremy.github.io/receipt-auditor/overview/) |
-| [**Cellar Scanner**](https://github.com/lyhjeremy/cellar-scanner) | Grape variety from a blind tasting note (1.5B model) | **27.7%** top-1 | 23.0% (different subsample; within noise) | [Live](https://lyhjeremy.github.io/cellar-scanner/) · [Write-up](https://lyhjeremy.github.io/cellar-scanner/overview/) |
-| [**Menu Decoder**](https://github.com/lyhjeremy/menu-decoder) | Cuisine and 14-allergen tags from a bare dish name | **99.3%** cuisine with no schema in the prompt; 69.3% allergen recall | 79.2% allergen recall, but only with the full schema in every prompt | [Live](https://lyhjeremy.github.io/menu-decoder/) · [Write-up](https://lyhjeremy.github.io/menu-decoder/overview/) |
-| [**Race Day Copilot**](https://github.com/lyhjeremy/race-day-copilot) | Km-by-km pacing plan from a course map, checked by six deterministic rules (3B model) | near parity on structure | gap remains on split arithmetic | [Live](https://lyhjeremy.github.io/race-day-copilot/) · [Write-up](https://lyhjeremy.github.io/race-day-copilot/overview/) |
+| [**Receipt Auditor**](https://github.com/lyhjeremy/receipt-auditor) | Spend category for merchants it has never seen | **90.5%** | 56.0%<sup>1</sup> | [Live](https://lyhjeremy.github.io/receipt-auditor/) · [Write-up](https://lyhjeremy.github.io/receipt-auditor/overview/) |
+| [**Cellar Scanner**](https://github.com/lyhjeremy/cellar-scanner) | Grape variety from a blind tasting note (1.5B model) | **27.7%** top-1 | 23.0%<sup>2</sup> | [Live](https://lyhjeremy.github.io/cellar-scanner/) · [Write-up](https://lyhjeremy.github.io/cellar-scanner/overview/) |
+| [**Menu Decoder**](https://github.com/lyhjeremy/menu-decoder) | Cuisine and 14-allergen tags from a bare dish name | **99.3%** cuisine with no schema in the prompt; 69.3% allergen recall | 79.2% allergen recall<sup>3</sup> | [Live](https://lyhjeremy.github.io/menu-decoder/) · [Write-up](https://lyhjeremy.github.io/menu-decoder/overview/) |
+| [**Race Day Copilot**](https://github.com/lyhjeremy/race-day-copilot) | Km-by-km pacing plan from a course map, checked by six deterministic rules (3B model) | near parity on structure | ahead on split arithmetic | [Live](https://lyhjeremy.github.io/race-day-copilot/) · [Write-up](https://lyhjeremy.github.io/race-day-copilot/overview/) |
+
+<sub>1. As scored. Claude's answers drew on the project's category list, and the scorer read the longest category in its reply; reading the first category it names gives about 74.7%. The fine-tuned model still leads. 2. Claude was scored on a different subsample, and the gap is within noise. 3. Claude needs the full allergen schema in every prompt to get there; the fine-tuned model gets only the dish name.</sub>
 
 ## Data stories
 
