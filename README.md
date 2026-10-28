@@ -2,7 +2,7 @@
 
 Data scientist. I build models, the tests that show whether they work, and the apps people open to use them. UCLA Anderson MSBA. Before that I co-founded an education business and, as Chief Strategy Officer, grew it 5.2 times to more than 1,000 students across six centers.
 
-**[lyhjeremy.com](https://lyhjeremy.com/)** has all 33 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/jeremylyh/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
+**[lyhjeremy.com](https://lyhjeremy.com/)** has all 33 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/lyhjeremy/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
 
 ## Selected work
 
