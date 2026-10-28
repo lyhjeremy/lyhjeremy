@@ -2,7 +2,7 @@
 
 Data scientist. I build models, the tests that show whether they work, and the apps people open to use them. UCLA Anderson MSBA. Before that I co-founded an education business and, as Chief Strategy Officer, grew it 5.2 times to more than 1,000 students across six centers.
 
-**[lyhjeremy.com](https://lyhjeremy.com/)** has all 33 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/lyhjeremy/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
+**[lyhjeremy.com](https://lyhjeremy.com/)** has all 34 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/lyhjeremy/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
 
 ## Selected work
 
@@ -33,6 +33,7 @@ Four photo-to-structured-data apps. Each one pairs an LLM pipeline with a small 
 
 Running and wine supply most of the questions: I have run 14 marathons (2:48 in Berlin) and hold WSET Level 3.
 
+- **[Fuel Lockstep](https://lyhjeremy.github.io/fuel-lockstep/)**: Hong Kong's five petrol brands posted the same price on 88% of days from 2020 to 2026, and prices rose 110 times against 33 cuts. Collusion screens against import costs, with Perth and Los Angeles for contrast, plus an [11-page paper](https://lyhjeremy.github.io/fuel-lockstep/paper/fuel-lockstep.pdf).
 - **[The Heat Tax](https://lyhjeremy.github.io/marathon-heat-tax/)**: across Boston Marathons from 2001 to 2014 (2013 excluded), the median finish slows about a minute per °F (r = 0.86). A hot day costs the typical runner 31 minutes.
 - **[Wine Score Inflation](https://lyhjeremy.github.io/wine-score-inflation/)**: the 100-point scale works like an 8-point one. Nothing in 130k reviews scores below 80, and 86% land between 84 and 92.
 - **[The Negative-Split Myth](https://lyhjeremy.github.io/marathon-negative-split-myth/)**: of 31,912 Boston finishers, 2.5% ran the faster second half coaches recommend. The median runner slowed 14%.
