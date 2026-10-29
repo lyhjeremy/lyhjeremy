@@ -2,7 +2,7 @@
 
 Data scientist. I build models, the tests that show whether they work, and the apps people open to use them. UCLA Anderson MSBA. Before that I co-founded an education business and, as Chief Strategy Officer, grew it 5.2 times to more than 1,000 students across six centers.
 
-**[lyhjeremy.com](https://lyhjeremy.com/)** has all 34 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/lyhjeremy/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
+**[lyhjeremy.com](https://lyhjeremy.com/)** has all 37 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/lyhjeremy/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
 
 ## Selected work
 
@@ -36,6 +36,8 @@ Running and wine supply most of the questions: I have run 14 marathons (2:48 in 
 - **[Fuel Lockstep](https://lyhjeremy.github.io/fuel-lockstep/)**: Hong Kong's five petrol brands posted the same price on 88% of days from 2020 to 2026, and prices rose 110 times against 33 cuts. Collusion screens against import costs, with Perth and Los Angeles for contrast, plus an [11-page paper](https://lyhjeremy.github.io/fuel-lockstep/paper/fuel-lockstep.pdf).
 - **[The Heat Tax](https://lyhjeremy.github.io/marathon-heat-tax/)**: across Boston Marathons from 2001 to 2014 (2013 excluded), the median finish slows about a minute per °F (r = 0.86). A hot day costs the typical runner 31 minutes.
 - **[Wine Score Inflation](https://lyhjeremy.github.io/wine-score-inflation/)**: the 100-point scale works like an 8-point one. Nothing in 130k reviews scores below 80, and 86% land between 84 and 92.
+- **[Vintage Heat](https://lyhjeremy.github.io/vintage-heat/)**: growing-season weather for 60 wine regions joined to 62,348 reviews. A season 1 °C warmer than normal moved scores by 0.23 points in cool regions and 0.08 in warm ones, and the placebo and trend checks weaken even that.
+- **[Fame Half-Life](https://lyhjeremy.github.io/fame-half-life/)**: daily Wikipedia views around 1,905 deaths and 175 major awards. Half the extra attention is gone a day after the peak; a two-phase decay beats exponential and power-law fits on 90% of events.
 - **[The Negative-Split Myth](https://lyhjeremy.github.io/marathon-negative-split-myth/)**: of 31,912 Boston finishers, 2.5% ran the faster second half coaches recommend. The median runner slowed 14%.
 - **[Are Song Lyrics Getting Simpler?](https://lyhjeremy.github.io/lyrics-complexity-over-time/)**: 50 years of Billboard hits doubled in length and got more repetitive, but the vocabulary did not shrink.
 - **[Scoring-Table Fairness](https://lyhjeremy.github.io/athletics-scoring-fairness/)**: Kruskal-Wallis tests on 6,400 elite marks. The best performers in some events score 68 points higher than in others.
@@ -66,6 +68,7 @@ Running and wine supply most of the questions: I have run 14 marathons (2:48 in 
 #### Tools and finance
 - [When Can I Retire?](https://github.com/lyhjeremy/fire-retirement-simulator): a Monte Carlo FIRE simulator that runs in the browser and returns the probability your money lasts. [Live](https://lyhjeremy.github.io/fire-retirement-simulator/)
 - [Leave Time Optimizer](https://github.com/lyhjeremy/leave-time-optimizer): when to leave to arrive on time, from the Google Maps API. [Live](https://lyhjeremy.github.io/leave-time-optimizer/)
+- [Connection Odds](https://github.com/lyhjeremy/connection-odds): how often a US connection fails, built from 23 million flights at 30 hubs. A 45-minute layover missed 17% of the time; the lookup gives the layover you need for 95%. [Live](https://lyhjeremy.github.io/connection-odds/)
 - [downtime-cli](https://github.com/lyhjeremy/downtime-cli): a zero-dependency npm CLI that fills a long build or test run with terminal trivia, then hands you back the untouched output. [Live](https://lyhjeremy.github.io/downtime-cli)
 
 </details>
