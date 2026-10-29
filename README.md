@@ -68,7 +68,7 @@ Running and wine supply most of the questions: I have run 14 marathons (2:48 in 
 #### Tools and finance
 - [When Can I Retire?](https://github.com/lyhjeremy/fire-retirement-simulator): a Monte Carlo FIRE simulator that runs in the browser and returns the probability your money lasts. [Live](https://lyhjeremy.github.io/fire-retirement-simulator/)
 - [Leave Time Optimizer](https://github.com/lyhjeremy/leave-time-optimizer): when to leave to arrive on time, from the Google Maps API. [Live](https://lyhjeremy.github.io/leave-time-optimizer/)
-- [Connection Odds](https://github.com/lyhjeremy/connection-odds): how often a US connection fails, built from 23 million flights at 30 hubs. A 45-minute layover missed 17% of the time; the lookup gives the layover you need for 95%. [Live](https://lyhjeremy.github.io/connection-odds/)
+- [Connection Odds](https://github.com/lyhjeremy/connection-odds): how often a US connection fails, built from 21 million flights at the 30 busiest US hubs. A 45-minute layover (45 to 49 minutes) missed 17% of the time; the lookup gives the layover you need for 95%. [Live](https://lyhjeremy.github.io/connection-odds/)
 - [downtime-cli](https://github.com/lyhjeremy/downtime-cli): a zero-dependency npm CLI that fills a long build or test run with terminal trivia, then hands you back the untouched output. [Live](https://lyhjeremy.github.io/downtime-cli)
 
 </details>
