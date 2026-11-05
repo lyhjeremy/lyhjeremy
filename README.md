@@ -21,7 +21,7 @@ Every AI project has a test set frozen before the first run, a baseline it has t
 | Project | Result vs baseline | Cost per task | Latency (median) | Main failure |
 |---|---|---|---|---|
 | [Strategy coach](https://lyhjeremy.github.io/marathon-strategy-rag/overview/) | 42 of 42 vs 21 (RAG), 14 (bare) | $0.017 | 8.4 s (p95 14.6 s, n=11) | Asks for a missing input instead of answering |
-| [Wine RAG](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) | nDCG@10 0.76 vs 0.59 dense | $0 retrieval, $0.13 answer | 196 ms retrieval, 8.3 s answer | Ignores a price limit in the sentence |
+| [Wine RAG](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) | nDCG@10 0.76 vs 0.59 dense | $0 retrieval, $0.13 answer | 196 ms retrieval, 8.3 s answer | Wrong grape or color, or an ignored price limit |
 | [Receipt Auditor](https://lyhjeremy.github.io/receipt-auditor/overview/) | LoRA 90.5% vs Claude 80.0% | $0 vs $0.003 | 0.19 s vs 3.6 s | Labels that split two ways in training |
 | [Podcastify](https://lyhjeremy.github.io/podcastify/) | 7.4 vs 4.4 of 12 key points | $0.35 per episode | 3 min 43 s per episode | Repair step left 8 of 165 lines unsupported |
 
