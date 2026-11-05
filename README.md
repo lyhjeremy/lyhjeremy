@@ -1,20 +1,38 @@
-# Jeremy Lee
+<a href="https://lyhjeremy.com/"><img src="assets/banner.png" alt="Jeremy Lee, AI engineer, Los Angeles, open to relocation. LLM systems on Claude and MCP, each with a frozen eval set, a baseline, and the cost and latency of every answer. Drawing of the Berlin Marathon course, run in 2:48." width="100%"></a>
 
-Data scientist. I build models, the tests that show whether they work, and the apps people open to use them. UCLA Anderson MSBA. Before that I co-founded an education business and, as Chief Strategy Officer, grew it 5.2 times to more than 1,000 students across six centers.
+I build LLM systems and the evals that show whether they work. Most recently I led a natural-language analytics platform on Claude and MCP at Kandu (health tech), from proposal to production. Before that I was a data scientist at InstaAgent (Y Combinator), and for nine years co-founder and Chief Strategy Officer of an education company that grew enrollment 5.2 times. MSBA at UCLA Anderson, December 2026 (GPA 3.92).
 
-**[lyhjeremy.com](https://lyhjeremy.com/)** has all 37 projects with their charts and screenshots · [LinkedIn](https://www.linkedin.com/in/lyhjeremy/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
+**Looking for:** AI engineer and applied ML roles. Based in Los Angeles, open to relocation.
 
-## Selected work
+**[lyhjeremy.com](https://lyhjeremy.com/)** (all 37 projects) · **[Resume (PDF)](https://lyhjeremy.com/assets/Jeremy-Lee-Resume-AI-Engineer.pdf)** · [LinkedIn](https://www.linkedin.com/in/lyhjeremy/) · [lyhjeremy@gmail.com](mailto:lyhjeremy@gmail.com)
 
-| Project | What it is | Result | |
-|---|---|---|---|
-| [**SkillCompass**](https://github.com/lyhjeremy/skill-compass) | Two-minute skill checks in 40+ fields. Elo-style ability scoring against items with calibrated difficulty priors, placement routing, live peer percentiles, and three LLM features: resume-gap analysis, a mock-interview agent and a study guide. FastAPI backend. | Full stack running on $0 a month | [Live](https://lyhjeremy.github.io/skill-compass/) · [Write-up](https://lyhjeremy.github.io/skill-compass/overview/) |
-| [**Leeway**](https://github.com/lyhjeremy/leeway) | EV trip planner for the battery a car has after five years. Range adjusted for elevation and weather, charger stops under a hard reserve, and a detour budget spent avoiding unprotected left turns and rail crossings. | Logged trips correct its own range estimates | [Live](https://lyhjeremy.github.io/leeway/) · [Write-up](https://lyhjeremy.github.io/leeway/overview/) |
-| [**Wine Sommelier RAG**](https://github.com/lyhjeremy/wine-sommelier-rag) | Plain-English wine search over the 30,000 top-scored reviews of a 130k Wine Enthusiast set. Hybrid BM25 and dense retrieval with a cross-encoder reranker; every pick is cited. | Precision and nDCG up about 21% over a dense baseline | [Live](https://lyhjeremy.github.io/wine-sommelier-rag/) · [Write-up](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) |
-| [**World-Record Half-Lives**](https://github.com/lyhjeremy/world-record-half-lives) | Every Olympic event's world-record progression (1,251 reigns from World Athletics' handbook), a Weibull model with an event frailty, backtested by fitting on 2010 and scoring 2011 to 2025. | Brier 0.235 against 0.329 for the base rate; LA 2028 watchlist led by Duplantis at 48% | [Live](https://lyhjeremy.github.io/world-record-half-lives/) · [Write-up](https://lyhjeremy.github.io/world-record-half-lives/overview/) |
-| [**One in a Hundred**](https://github.com/lyhjeremy/one-in-a-hundred) | What it takes to be in the top 1% of a group, on income, wealth, height, life expectancy and more. Each fact is graded A to D by source agreement, with the full distribution drawn underneath. | 950 facts from 72 sources; question parser 90.5% exact on a 200-question gold set | [Live](https://lyhjeremy.github.io/one-in-a-hundred/) |
-| [**Cantonese Learner**](https://github.com/lyhjeremy/cantonese-learner-v2) | Today's Hong Kong news rewritten into spoken Cantonese by an LLM with a review pass, plus an everyday-conversation course. Neural zh-HK audio, jyutping, tap-to-compare and speech grading. | Rebuilt daily, costs nothing to run | [Live](https://lyhjeremy.github.io/cantonese-learner-v2/) · [Write-up](https://lyhjeremy.github.io/cantonese-learner-v2/overview/) |
-| [**Fourier Pen**](https://github.com/lyhjeremy/fourier-pen) | Any picture or text prompt becomes one continuous line, drawn by a chain of rotating arrows. Canny edges, a minimum-spanning-tree Euler tour so the pen never lifts, and a direct DFT, all in the browser. | Exports wallpapers and video | [Live](https://fourier-pen.vercel.app/) · [Write-up](https://fourier-pen.vercel.app/overview/) |
+## Start here
+
+- **[Marathon strategy coach](https://github.com/lyhjeremy/marathon-strategy-rag)**: the same Claude model answers three ways: alone, with retrieval, and with my pace and heat models as tools (also served over MCP). On 42 numeric targets frozen before any run: tools 42, retrieval 21, bare model 14. [Write-up with a full tool-call trace](https://lyhjeremy.github.io/marathon-strategy-rag/overview/)
+- **[Receipt Auditor](https://github.com/lyhjeremy/receipt-auditor)**: a 1.5B Qwen model fine-tuned on my laptop (LoRA) sorts line items at 90.5% against 80.0% for Claude zero-shot, in 0.19 s per item instead of 3.6 s, at $0 against $3.03 per 1,000. [Write-up](https://lyhjeremy.github.io/receipt-auditor/overview/)
+- **[Wine Sommelier RAG](https://github.com/lyhjeremy/wine-sommelier-rag)**: hybrid BM25 and dense retrieval with a cross-encoder reranker over 30,000 reviews; every pick is cited. nDCG@10 0.59 to 0.76 on 30 queries frozen before the run. [Write-up](https://lyhjeremy.github.io/wine-sommelier-rag/overview/)
+- **[Podcastify](https://github.com/lyhjeremy/podcastify)**: a whole book becomes a two-host episode where every claim line cites its source sentences and is checked before it is voiced. 7.4 of 12 key points covered against 4.4 for a rule-based script. [Write-up](https://lyhjeremy.github.io/podcastify/)
+- **[SkillCompass](https://github.com/lyhjeremy/skill-compass)**: two-minute skill checks in 40+ fields, scored Elo-style, with a FastAPI backend and three LLM features. Runs on $0 a month. [Live](https://lyhjeremy.github.io/skill-compass/)
+
+## How I test AI systems
+
+Every AI project has a test set frozen before the first run, a baseline it has to beat, measured cost and latency, and its main failure written down.
+
+| Project | Result vs baseline | Cost per task | Latency (median) | Main failure |
+|---|---|---|---|---|
+| [Strategy coach](https://lyhjeremy.github.io/marathon-strategy-rag/overview/) | 42 of 42 vs 21 (RAG), 14 (bare) | $0.017 | 8.4 s (p95 14.6 s, n=11) | Asks for a missing input instead of answering |
+| [Wine RAG](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) | nDCG@10 0.76 vs 0.59 dense | $0 retrieval, $0.13 answer | 196 ms retrieval, 8.3 s answer | Ignores a price limit in the sentence |
+| [Receipt Auditor](https://lyhjeremy.github.io/receipt-auditor/overview/) | LoRA 90.5% vs Claude 80.0% | $0 vs $0.003 | 0.19 s vs 3.6 s | Labels that split two ways in training |
+| [Podcastify](https://lyhjeremy.github.io/podcastify/) | 7.4 vs 4.4 of 12 key points | $0.35 per episode | 3 min 43 s per episode | Repair step left 8 of 165 lines unsupported |
+
+<sub>Cost is the API-equivalent price reported by the Claude CLI; local timings on an Apple M4. Each write-up has the eval files and the scripts that produced them.</sub>
+
+## Experience
+
+- **Kandu**, Data Engineer, Jul to Sep 2026: led a natural-language analytics platform on Claude and MCP, and the dbt warehouse under it from 13 post-merger systems (HIPAA, GDPR); record linkage from 75.7% to 97.5%.
+- **UCLA Anderson**, Data Analyst and graduate student researcher, Jun to Dec 2026: the Office of Inclusive Excellence's first data pipeline; research on LA's deep-tech cluster and on LLM voice agents in debt recovery (36,000 calls).
+- **InstaAgent** (Y Combinator), Data Scientist, Jun 2025 to Mar 2026: LLM content generation for nine clients, cutting production cost by more than 80%; engagement models that lifted engagement 25%.
+- **Casual Ace Learning Centre**, Co-founder and Chief Strategy Officer, 2016 to 2025: one location to eight, enrollment up 5.2 times and revenue 6.7 times; shipped the learning platform, LLM tutor included.
 
 ## The fine-tuning series
 
@@ -75,13 +93,13 @@ Running and wine supply most of the questions: I have run 14 marathons (2:48 in 
 
 ## Toolkit
 
-- **Modeling:** scikit-learn, PyTorch, XGBoost; regression, classification, clustering, time series, survival analysis, causal inference, A/B testing
-- **GenAI:** RAG (BM25, dense, reranking), embeddings and vector stores, LoRA fine-tuning, LLM-as-judge evaluation, LangChain, LangGraph, Anthropic and OpenAI APIs
-- **Optimization:** Gurobi; LP, IP, QP and non-convex programs; Monte Carlo simulation
-- **Data and deployment:** Python, R, SQL, Snowflake, Airflow, Spark, Tableau, Power BI; FastAPI, Streamlit, Render, Vercel, GitHub Pages
+- **LLM systems:** Claude and MCP, tool use, agents (LangGraph), RAG (BM25, dense, reranking), LoRA fine-tuning, evals with frozen gold sets and LLM judges, grounding checks
+- **Engineering:** Python, TypeScript, SQL, FastAPI, React, Git, CI/CD, GCP, Claude Code
+- **Modeling:** scikit-learn, PyTorch, XGBoost; survival analysis, causal inference, time series, A/B testing; Gurobi optimization
+- **Data:** Snowflake, dbt, Airflow, Spark; apps on Render, Vercel and GitHub Pages
 
 ## Education
 
-MSBA, UCLA Anderson School of Management · graduate analytics coursework, Georgia Tech · BBA in Accounting and Finance, University of Hong Kong
+MSBA, UCLA Anderson School of Management (Dec 2026, GPA 3.92) · graduate analytics coursework, Georgia Tech · BBA in Accounting and Finance, University of Hong Kong
 
 <sub>Design and copy across these repos follow [these standards](DESIGN_STANDARDS.md).</sub>
