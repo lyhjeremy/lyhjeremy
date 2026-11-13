@@ -8,24 +8,32 @@ I build LLM systems and the evals that show whether they work. Most recently I l
 
 ## Start here
 
-- **[Marathon strategy coach](https://github.com/lyhjeremy/marathon-strategy-rag)**: the same Claude model answers three ways: alone, with retrieval, and with my pace and heat models as tools (also served over MCP). On 42 numeric targets frozen before any run: tools 42, retrieval 21, bare model 14. [Write-up with a full tool-call trace](https://lyhjeremy.github.io/marathon-strategy-rag/overview/)
-- **[Receipt Auditor](https://github.com/lyhjeremy/receipt-auditor)**: a 1.5B Qwen model fine-tuned on my laptop (LoRA) sorts line items at 90.5% against 80.0% for Claude zero-shot, in 0.19 s per item instead of 3.6 s, at $0 against $3.03 per 1,000. [Write-up](https://lyhjeremy.github.io/receipt-auditor/overview/)
-- **[Wine Sommelier RAG](https://github.com/lyhjeremy/wine-sommelier-rag)**: hybrid BM25 and dense retrieval with a cross-encoder reranker over 30,000 reviews; every pick is cited. nDCG@10 0.59 to 0.76 on 30 queries frozen before the run. [Write-up](https://lyhjeremy.github.io/wine-sommelier-rag/overview/)
-- **[Podcastify](https://github.com/lyhjeremy/podcastify)**: a whole book becomes a two-host episode where every claim line cites its source sentences and is checked before it is voiced. 7.4 of 12 key points covered against 4.4 for a rule-based script. [Write-up](https://lyhjeremy.github.io/podcastify/)
-- **[SkillCompass](https://github.com/lyhjeremy/skill-compass)**: two-minute skill checks in 40+ fields, scored Elo-style, with a FastAPI backend and three LLM features. Runs on $0 a month. [Live](https://lyhjeremy.github.io/skill-compass/)
+- **[Menu Decoder](https://github.com/lyhjeremy/menu-decoder)**: a 1.5B model I fine-tuned to tag 14 allergens, behind two guard layers that can add a warning but never remove one (an ingredient lexicon, then a Claude Haiku second opinion). On 60 adversarial dishes frozen before the run, hidden allergens missed went from 22 to 0; held-out false-safe calls from 7.3% to 0.8%, at $0.18 per 1,000 dishes. [Write-up](https://lyhjeremy.github.io/menu-decoder/overview/)
+- **[Marathon strategy coach](https://github.com/lyhjeremy/marathon-strategy-rag)**: Claude answers with my pace and heat models as tools, also served over MCP. On 42 numeric targets frozen before any run: tools 42, retrieval 21, bare model 14. Since then: a 15-case red-team set, reruns for variance, and a step-by-step trace replay. [Write-up](https://lyhjeremy.github.io/marathon-strategy-rag/overview/)
+- **[Podcastify](https://github.com/lyhjeremy/podcastify)**: a whole book becomes a two-host episode where every claim cites its source sentences. Its fact-checkers were tested on 56 lines broken on purpose: Opus caught all 56, my pipeline's Sonnet checker 44 to 49, a three-judge vote 52. [Write-up](https://lyhjeremy.github.io/podcastify/overview/)
+- **[When Can I Retire?](https://github.com/lyhjeremy/fire-retirement-simulator)**: ask in plain English; Claude fills a validated scenario, my engine on 152 years of market data does every calculation, and any number the engine did not produce is rejected. 28 of 30 frozen questions right; the bare model matched the engine 3 times in 20. [Write-up](https://lyhjeremy.github.io/fire-retirement-simulator/overview/)
+- **[Receipt Auditor](https://github.com/lyhjeremy/receipt-auditor)**: a 1.5B Qwen model fine-tuned on my laptop (LoRA) sorts line items at 90.5% against 80.0% for Claude zero-shot, in 0.19 s per item instead of 3.6 s. [Write-up](https://lyhjeremy.github.io/receipt-auditor/overview/)
 
 ## How I test AI systems
 
-Every AI project has a test set frozen before the first run, a baseline it has to beat, measured cost and latency, and its main failure written down.
+Every AI project has a test set frozen before the first run, a baseline it has to beat, measured cost and latency, and its main failure written down. No result below rests on human labels; where those are the next step, the repo has a labeling sheet.
 
 | Project | Result vs baseline | Cost per task | Latency (median) | Main failure |
 |---|---|---|---|---|
-| [Strategy coach](https://lyhjeremy.github.io/marathon-strategy-rag/overview/) | 42 of 42 vs 21 (RAG), 14 (bare) | $0.017 | 8.4 s (p95 14.6 s, n=11) | Asks for a missing input instead of answering |
-| [Wine RAG](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) | nDCG@10 0.76 vs 0.59 dense | $0 retrieval, $0.13 answer | 196 ms retrieval, 8.3 s answer | Wrong grape or color, or an ignored price limit |
-| [Receipt Auditor](https://lyhjeremy.github.io/receipt-auditor/overview/) | LoRA 90.5% vs Claude 80.0% | $0 vs $0.003 | 0.19 s vs 3.6 s | Labels that split two ways in training |
-| [Podcastify](https://lyhjeremy.github.io/podcastify/) | 7.4 vs 4.4 of 12 key points | $0.35 per episode | 3 min 43 s per episode | Repair step left 8 of 165 lines unsupported |
+| [Strategy coach](https://lyhjeremy.github.io/marathon-strategy-rag/overview/) | 42 of 42 vs 21 (RAG), 14 (bare); 0 of 15 red-team attacks worked | $0.017 | 8.4 s | 42 of 42 is close to circular |
+| [Menu Decoder](https://lyhjeremy.github.io/menu-decoder/overview/) | False-safe 7.3% to 0.8%; adversarial misses 22 to 0 | $0.00018 (guard) | 2.8 s local | Over-warning up to 27% |
+| [Podcastify judges](https://lyhjeremy.github.io/podcastify/overview/) | Opus 56 of 56 broken lines; Sonnet 44 to 49 | $0.0025 per line | 10.6 s per batch | Sonnet forgives flipped negations |
+| [Training agent](https://lyhjeremy.github.io/marathon-training-agent/overview/) | Schema plans 6 of 6 pass vs 1 of 6; wrong lengths 0 vs 3 | $0.10 | 47 s | Drafts break the note limit |
+| [Retirement agent](https://lyhjeremy.github.io/fire-retirement-simulator/overview/) | 28 of 30; headline 19 of 20 vs 3 of 20 bare | $0.0087 | 7.7 s | A reply dropped the what-if result |
+| [Itinerary checker](https://lyhjeremy.github.io/connection-odds/overview/) | 30 of 30 parsed; bare model 9.4 points off | $0.0068 | 6.3 s | "No chance" for "no figure" |
+| [Wine RAG](https://lyhjeremy.github.io/wine-sommelier-rag/overview/) | Limit-breaking results 77.5% to 0; nDCG@10 0.76 vs 0.59 | $0.053 extraction | 2.4 s | Word filter drops unoaked wines |
+| [Pairing agent](https://lyhjeremy.github.io/wine-pairing-agent/overview/) | Critique passes 10 of 10 vs 0; grapes 10 vs 3 | $0.49 | 34 s | Second judge agrees 6 of 10 |
+| [Receipt Auditor](https://lyhjeremy.github.io/receipt-auditor/overview/) | LoRA 90.5% vs Claude 80.0% | $0 vs $0.003 | 0.19 s vs 3.6 s | Labels that split two ways |
+| [One in a Hundred](https://lyhjeremy.github.io/one-in-a-hundred/overview/) | In-browser parser 66 vs 58 of 104 new; 172 vs 181 of 200 frozen | $0 | 4.9 ms | Lost cue words before embedding |
 
 <sub>Cost is the API-equivalent price reported by the Claude CLI; local timings on an Apple M4. Each write-up has the eval files and the scripts that produced them.</sub>
+
+**Methods across these:** agents with tool use over my own models, MCP servers (four repos), schema-validated structured output with repair, LLM judges scored against known answers and each other (Cohen's kappa), red-team and adversarial sets, models running in the browser (transformers.js, self-hosted), replayable run traces, and a Claude Code plugin. The [matrix on lyhjeremy.com](https://lyhjeremy.com/#methods) shows which project uses which.
 
 ## Experience
 
@@ -65,8 +73,8 @@ Running and wine supply most of the questions: I have run 14 marathons (2:48 in 
 
 #### Generative AI and agents
 - [Marathon Strategy RAG](https://github.com/lyhjeremy/marathon-strategy-rag): a tool-calling coach that runs my Boston pace and heat models instead of guessing numbers, with an MCP server for Claude Desktop and Claude Code. On a frozen 43-question gold set it got 42 of 42 numeric values within tolerance (plain RAG 21, bare model 14) and left an unsourced number in 3 of 43 answers (RAG 28, bare 43). [Live](https://lyhjeremy.github.io/marathon-strategy-rag/)
-- [Marathon Training Agent](https://github.com/lyhjeremy/marathon-training-agent): a LangGraph agent that drafts a training plan and revises it until it passes explicit safety checks. Streamlit UI. [Live](https://lyhjeremy.github.io/marathon-training-agent/)
-- [Wine Pairing Agent](https://github.com/lyhjeremy/wine-pairing-agent): a LangGraph agent that reasons from pairing principles to a style, searches 30,000 indexed reviews as a tool, and critiques its own pick. [Live](https://lyhjeremy.github.io/wine-pairing-agent/)
+- [Marathon Training Agent](https://github.com/lyhjeremy/marathon-training-agent): a LangGraph planner rebuilt on schema-validated plans with code checks and up to two repairs; 6 of 6 frozen runners pass against 1 of 6 for its old critique loop. MCP server for the checks. [Live](https://lyhjeremy.github.io/marathon-training-agent/)
+- [Wine Pairing Agent](https://github.com/lyhjeremy/wine-pairing-agent): a LangGraph agent that reasons from pairing principles to a style, searches 30,000 indexed reviews as a tool, and critiques its pick against a schema-checked rubric; every run replays node by node. [Live](https://lyhjeremy.github.io/wine-pairing-agent/)
 
 #### Running and sports analytics
 - [Performance Continuum](https://github.com/lyhjeremy/marathon-performance-continuum): distribution fitting and extreme-value theory on 31,842 finishers, and how far the world record sits beyond them. [Live](https://lyhjeremy.github.io/marathon-performance-continuum/)
@@ -86,8 +94,8 @@ Running and wine supply most of the questions: I have run 14 marathons (2:48 in 
 #### Tools and finance
 - [When Can I Retire?](https://github.com/lyhjeremy/fire-retirement-simulator): replays a retirement plan through every start year of US market history since 1871 (Shiller data), or a block bootstrap of it, with a stock/bond mix, guardrail spending and a solver for the smallest change that reaches 90%. Checked against the Trinity study and a 1946 to 1993 holdout. [Live](https://lyhjeremy.github.io/fire-retirement-simulator/)
 - [Leave Time Optimizer](https://github.com/lyhjeremy/leave-time-optimizer): when to leave to arrive on time, from the Google Maps API. [Live](https://lyhjeremy.github.io/leave-time-optimizer/)
-- [Connection Odds](https://github.com/lyhjeremy/connection-odds): how often a US connection fails, built from 21 million flights at the 30 busiest US hubs. A 45-minute layover (45 to 49 minutes) missed 17% of the time; the lookup gives the layover you need for 95%. [Live](https://lyhjeremy.github.io/connection-odds/)
-- [downtime-cli](https://github.com/lyhjeremy/downtime-cli): a zero-dependency npm CLI that fills a long build or test run with terminal trivia, then hands you back the untouched output. [Live](https://lyhjeremy.github.io/downtime-cli)
+- [Connection Odds](https://github.com/lyhjeremy/connection-odds): how often a US connection fails, built from 21 million flights at the 30 busiest US hubs. A 45-minute layover (45 to 49 minutes) missed 17% of the time; the lookup gives the layover you need for 95%, and an agent reads a pasted itinerary and scores each connection with the model (also an MCP server). [Live](https://lyhjeremy.github.io/connection-odds/)
+- [downtime-cli](https://github.com/lyhjeremy/downtime-cli): a zero-dependency npm CLI that fills a long build or test run with terminal trivia, and a Claude Code plugin whose hooks open a companion pane while a tool call or subagent works. [Live](https://lyhjeremy.github.io/downtime-cli)
 
 </details>
 
